@@ -72,7 +72,7 @@
                                             <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                 <?= $this->renderSection('welcome_username_test'); ?>
                                             </a>
-                                            <div class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                            <div class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
                                                 <div class = "user-profile-section">
                                                     <div class = "media mx-auto">
                                                         <?php if($userdata->profile_pic != ''): ?>
@@ -87,25 +87,37 @@
                                                             </div>
                                                     </div>
                                                 </div>
+                                                <hr class = "hr_nav">
 
                                                 <div class="dp-main-menu">
                                                     <a href="" class="dropdown-item">
-                                                        <span class="fa fa-user-circle-o">User Profile</span>
+                                                        <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                                                        <span class="">User Profile</span>
                                                     </a>
+                                                    <div class="dropdown-divider"></div>
                                                     <a href="" class="dropdown-item">
-                                                        <span class="fa fa-pencil-square-o">Edit Profile</span>
+                                                        <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                                                        <span class="">Edit Profile</span>
                                                     </a>
+                                                    <div class="dropdown-divider"></div>
                                                     <a href="" class="dropdown-item">
-                                                        <span class="fa fa-cloud-upload">Upload Avatar</span>
+                                                        <i class="fa fa-cloud-upload" aria-hidden="true"></i>
+                                                        <span class="">Upload Avatar</span>
                                                     </a>
+                                                    <div class="dropdown-divider"></div>
                                                     <a href="" class="dropdown-item">
-                                                        <span class="fa fa-lock">Change Password</span>
+                                                        <i class="fa fa-lock" aria-hidden="true"></i>
+                                                        <span class="">Change Password</span>
                                                     </a>
+                                                    <div class="dropdown-divider"></div>
                                                     <a href="" class="dropdown-item">
-                                                        <span class="fa fa-universal-access">Login Activity</span>
+                                                        <i class="fa fa-universal-access" aria-hidden="true"></i>
+                                                        <span class="">Login Activity</span>
                                                     </a>
+                                                    <div class="dropdown-divider"></div>
                                                     <a href="" class="dropdown-item">
-                                                        <span class="fa fa-sign-out">Logout</span>
+                                                        <i class="fa fa-sign-out" aria-hidden="true"></i>
+                                                        <span class="">Logout</span>
                                                     </a>
                                                 </div>
                                             </div>

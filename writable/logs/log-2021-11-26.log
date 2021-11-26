@@ -1,0 +1,33 @@
+CRITICAL - 2021-11-26 02:51:31 --> Trying to get property 'username' of non-object
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\adDashboard\admin_dashboard_view.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('adDashboard/adm...', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\app\Controllers\AdminDashboard.php(24): view('adDashboard/adm...', Array)
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\AdminDashboard->admin_dashboard_controller()
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-26 02:51:35 --> Trying to get property 'username' of non-object
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\adDashboard\admin_dashboard_view.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('adDashboard/adm...', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\app\Controllers\AdminDashboard.php(24): view('adDashboard/adm...', Array)
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\AdminDashboard->admin_dashboard_controller()
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-26 02:53:09 --> Trying to get property 'username' of non-object
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\adDashboard\admin_dashboard_view.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('adDashboard/adm...', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\app\Controllers\AdminDashboard.php(24): view('adDashboard/adm...', Array)
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\AdminDashboard->admin_dashboard_controller()
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

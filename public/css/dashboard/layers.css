@@ -26,7 +26,7 @@ a.sidebarCollapse {
     padding-top: 10px;
 }
 
-img.img-fuild.mr-2 {
+img.img-fluid.mr-2{
     width: 70px;
     height: 70px;
     border-radius: 50%;
@@ -40,18 +40,24 @@ img.img-fuild.mr-2 {
 
 .media-body h5 {
     font-weight: 700;
-    color: var(--white-color);
+    color: var(--grey-main);
 }
 
 .media-body p {
     font-size: 13px;
-    color: var(--white-color);
+    color: var(--grey-main);
     font-weight: 500;
 }
 
 a.dropdown-item a span {
+    color: var(--grey-main);
 }
 
 .dp-main-menu a span {
-    padding-right: 8px;
+    color: var(--grey-main);
+    padding: 8px;
+}
+
+.hr_nav {
+    background-color: var(--main-color);
 }

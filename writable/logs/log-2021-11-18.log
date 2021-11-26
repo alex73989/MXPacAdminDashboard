@@ -1,0 +1,90 @@
+CRITICAL - 2021-11-18 01:12:24 --> Undefined variable: validation
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\myform.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('myform', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\app\Controllers\Users.php(45): view('myform', Array)
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Users->index()
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-18 01:14:03 --> Undefined variable: validation
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\myform.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('myform', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\app\Controllers\Users.php(45): view('myform', Array)
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Users->index()
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-18 01:14:03 --> Undefined variable: validation
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\myform.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('myform', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\app\Controllers\Users.php(45): view('myform', Array)
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Users->index()
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-18 01:14:04 --> Undefined variable: validation
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\myform.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('myform', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\app\Controllers\Users.php(45): view('myform', Array)
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Users->index()
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-18 01:18:09 --> Undefined variable: validation
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\myform.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('myform', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\app\Controllers\Users.php(45): view('myform', Array)
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Users->index()
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-18 01:20:02 --> Undefined variable: validation
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\myform.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('myform', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\app\Controllers\Users.php(45): view('myform', Array)
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Users->index()
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-11-18 23:58:03 --> Table 'users.users' doesn't exist
+CRITICAL - 2021-11-18 23:58:03 --> Table 'users.users' doesn't exist
+#0 C:\xampp\htdocs\MXPacGroup\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\MXPacGroup\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\MXPacGroup\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\MXPacGroup\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\MXPacGroup\system\Validation\Rules.php(161): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\MXPacGroup\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_unique('alextanweichung...', 'email', Array, NULL)
+#6 C:\xampp\htdocs\MXPacGroup\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('email', 'email', 'alextanweichung...', Array, Array)
+#7 C:\xampp\htdocs\MXPacGroup\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\MXPacGroup\app\Controllers\Auth.php(50): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Auth->register_controller()
+#10 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#11 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-11-18 23:58:42 --> str_shuffle() expects exactly 1 parameter, 2 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'str_shuffle() e...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\MXPacGroup\app\Controllers\Auth.php(52): str_shuffle('abcdefghijklmno...', 1637301522)
+#2 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Auth->register_controller()
+#3 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

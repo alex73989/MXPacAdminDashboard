@@ -1,0 +1,27 @@
+CRITICAL - 2021-11-24 00:18:36 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\MXPacGroup\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\MXPacGroup\system\Model.php(717): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\MXPacGroup\app\Controllers\Auth.php(146): CodeIgniter\Model->__call('updatedAt', Array)
+#3 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Auth->forgot_password()
+#4 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-24 00:19:51 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\MXPacGroup\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\MXPacGroup\system\Model.php(717): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\MXPacGroup\app\Controllers\Auth.php(146): CodeIgniter\Model->__call('updatedAt', Array)
+#3 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Auth->forgot_password()
+#4 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-24 00:22:58 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\MXPacGroup\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\MXPacGroup\system\Model.php(717): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\MXPacGroup\app\Controllers\Auth.php(146): CodeIgniter\Model->__call('updatedAt', Array)
+#3 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Auth->forgot_password()
+#4 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

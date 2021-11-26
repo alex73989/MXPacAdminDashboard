@@ -1,0 +1,169 @@
+ERROR - 2021-11-25 00:16:42 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2021-11-25 00:16:42 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\MXPacGroup\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\MXPacGroup\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `uniid`,...', Array, false)
+#2 C:\xampp\htdocs\MXPacGroup\app\Models\LoginModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\MXPacGroup\app\Controllers\Auth.php(144): App\Models\LoginModel->verifyEmail('alextanweichung...')
+#4 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Auth->forgot_password()
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-11-25 00:17:37 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2021-11-25 00:17:37 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\MXPacGroup\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\MXPacGroup\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `uniid`,...', Array, false)
+#2 C:\xampp\htdocs\MXPacGroup\app\Models\LoginModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\MXPacGroup\app\Controllers\Auth.php(144): App\Models\LoginModel->verifyEmail('alextanweichung...')
+#4 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Auth->forgot_password()
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-11-25 00:38:33 --> Table 'users.users_one' doesn't exist in engine
+CRITICAL - 2021-11-25 00:38:33 --> Table 'users.users_one' doesn't exist in engine
+#0 C:\xampp\htdocs\MXPacGroup\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `uniid`,...', 0)
+#1 C:\xampp\htdocs\MXPacGroup\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `uniid`,...')
+#2 C:\xampp\htdocs\MXPacGroup\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `uniid`,...')
+#3 C:\xampp\htdocs\MXPacGroup\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `uniid`,...', Array, false)
+#4 C:\xampp\htdocs\MXPacGroup\app\Models\LoginModel.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\MXPacGroup\app\Controllers\Auth.php(144): App\Models\LoginModel->verifyEmail('alextanweichung...')
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Auth->forgot_password()
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-11-25 01:39:50 --> Invalid file: reset_password_view.php
+#0 C:\xampp\htdocs\MXPacGroup\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('reset_password_...')
+#1 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('reset_password_...', Array, true)
+#2 C:\xampp\htdocs\MXPacGroup\app\Controllers\Auth.php(227): view('reset_password_...', Array)
+#3 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Auth->reset_password('8adeaaf308d0c3f...')
+#4 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-25 01:40:46 --> Invalid file: reset_password_view.php
+#0 C:\xampp\htdocs\MXPacGroup\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('reset_password_...')
+#1 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('reset_password_...', Array, true)
+#2 C:\xampp\htdocs\MXPacGroup\app\Controllers\Auth.php(227): view('reset_password_...', Array)
+#3 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Auth->reset_password('8adeaaf308d0c3f...')
+#4 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-25 01:41:54 --> Invalid file: reset_password_view.php
+#0 C:\xampp\htdocs\MXPacGroup\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('reset_password_...')
+#1 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('reset_password_...', Array, true)
+#2 C:\xampp\htdocs\MXPacGroup\app\Controllers\Auth.php(227): view('reset_password_...', Array)
+#3 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Auth->reset_password('8adeaaf308d0c3f...')
+#4 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-25 01:42:44 --> Invalid file: reset_password_view.php
+#0 C:\xampp\htdocs\MXPacGroup\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('reset_password_...')
+#1 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('reset_password_...', Array, true)
+#2 C:\xampp\htdocs\MXPacGroup\app\Controllers\Auth.php(227): view('reset_password_...', Array)
+#3 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Auth->reset_password('8adeaaf308d0c3f...')
+#4 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-25 01:44:00 --> Invalid file: reset_password_view.php
+#0 C:\xampp\htdocs\MXPacGroup\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('reset_password_...')
+#1 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('reset_password_...', Array, true)
+#2 C:\xampp\htdocs\MXPacGroup\app\Controllers\Auth.php(227): view('reset_password_...', Array)
+#3 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Auth->reset_password()
+#4 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-25 01:44:32 --> Invalid file: reset_password_view.php
+#0 C:\xampp\htdocs\MXPacGroup\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('reset_password_...')
+#1 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('reset_password_...', Array, true)
+#2 C:\xampp\htdocs\MXPacGroup\app\Controllers\Auth.php(227): view('reset_password_...', Array)
+#3 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Auth->reset_password()
+#4 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-25 01:44:47 --> Invalid file: reset_password_view.php
+#0 C:\xampp\htdocs\MXPacGroup\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('reset_password_...')
+#1 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('reset_password_...', Array, true)
+#2 C:\xampp\htdocs\MXPacGroup\app\Controllers\Auth.php(227): view('reset_password_...', Array)
+#3 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Auth->reset_password('8adeaaf308d0c3f...')
+#4 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-25 01:44:58 --> Invalid file: reset_password_view.php
+#0 C:\xampp\htdocs\MXPacGroup\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('reset_password_...')
+#1 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('reset_password_...', Array, true)
+#2 C:\xampp\htdocs\MXPacGroup\app\Controllers\Auth.php(227): view('reset_password_...', Array)
+#3 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Auth->reset_password('8adeaaf308d0c3f...')
+#4 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-25 19:59:34 --> Undefined variable: userdata
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\home.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 4, Array)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\app\Controllers\Home.php(13): view('home', Array)
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Home->home_controller()
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-25 20:00:57 --> Undefined property: App\Controllers\Home::$dashboardModel
+#0 C:\xampp\htdocs\MXPacGroup\app\Controllers\Home.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Home->home_controller()
+#2 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-25 20:03:06 --> Trying to get property 'username' of non-object
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\home.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 4, Array)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\app\Controllers\Home.php(29): view('home', Array)
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Home->home_controller()
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-25 20:16:51 --> Invalid file: admin_dashboard_view.php
+#0 C:\xampp\htdocs\MXPacGroup\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_dashboard...')
+#1 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('admin_dashboard...', Array, true)
+#2 C:\xampp\htdocs\MXPacGroup\app\Controllers\AdminDashboard.php(13): view('admin_dashboard...', Array)
+#3 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\AdminDashboard->admin_dashboard_controller()
+#4 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-25 20:17:10 --> Undefined variable: userdata
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\adDashboard\admin_dashboard_view.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 4, Array)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('adDashboard/adm...', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\app\Controllers\AdminDashboard.php(13): view('adDashboard/adm...', Array)
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\AdminDashboard->admin_dashboard_controller()
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-25 20:18:42 --> Undefined property: App\Controllers\AdminDashboard::$dashboardModel
+#0 C:\xampp\htdocs\MXPacGroup\app\Controllers\AdminDashboard.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\AdminDashboard->admin_dashboard_controller()
+#2 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+#3 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

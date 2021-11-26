@@ -1,0 +1,12 @@
+CRITICAL - 2021-11-10 23:47:41 --> include(/app/Views/includes/header.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\CodeIgniter\app\Views\auth\login.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(/app/Vi...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\CodeIgniter\app\Views\auth\login.php(12): include()
+#2 C:\xampp\htdocs\CodeIgniter\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\CodeIgniter\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\CodeIgniter\system\Common.php(1097): CodeIgniter\View\View->render('auth/login', Array, true)
+#5 C:\xampp\htdocs\CodeIgniter\app\Controllers\Auth.php(9): view('auth/login')
+#6 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(824): App\Controllers\Auth->index()
+#7 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampp\htdocs\CodeIgniter\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

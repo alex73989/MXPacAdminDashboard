@@ -1,0 +1,17 @@
+.reset_design{
+    float: right;
+}
+
+.nav_design {
+    margin: auto;
+    margin-right: 0;
+}
+
+.login_center {
+    text-align: center;
+}
+
+.reset_password_form {
+    text-align: center;
+    padding: 10px;
+}

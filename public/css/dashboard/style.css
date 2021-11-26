@@ -1,0 +1,23 @@
+.banner_background{
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+}
+@media screen and (min-width: 601px)
+{
+    .banner_background {
+        
+        height: 400px;
+    }
+}
+@media screen and (min-width: 1000px)
+{
+    .banner_background {
+        
+        height: 500px;
+    }
+}
+
+.aboutus_background{
+    background-color: aliceblue;
+}

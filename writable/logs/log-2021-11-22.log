@@ -1,0 +1,153 @@
+CRITICAL - 2021-11-22 00:39:46 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\MXPacGroup\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\MXPacGroup\system\Model.php(717): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\MXPacGroup\app\Controllers\Auth.php(49): CodeIgniter\Model->__call('verfiyEmail', Array)
+#3 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Auth->login_controller()
+#4 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-22 00:45:16 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\MXPacGroup\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\MXPacGroup\system\Model.php(717): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\MXPacGroup\app\Controllers\Auth.php(49): CodeIgniter\Model->__call('verfiyEmail', Array)
+#3 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Auth->login_controller()
+#4 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-22 00:48:40 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\MXPacGroup\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\MXPacGroup\system\Model.php(717): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\MXPacGroup\app\Controllers\Auth.php(49): CodeIgniter\Model->__call('verfiyEmail', Array)
+#3 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Auth->login_controller()
+#4 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-22 00:52:16 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\MXPacGroup\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\MXPacGroup\system\Model.php(717): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\MXPacGroup\app\Controllers\Auth.php(49): CodeIgniter\Model->__call('verfiyEmail', Array)
+#3 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Auth->login_controller()
+#4 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-22 00:53:38 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\MXPacGroup\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\MXPacGroup\system\Model.php(717): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\MXPacGroup\app\Controllers\Auth.php(49): CodeIgniter\Model->__call('verfiyEmail', Array)
+#3 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Auth->login_controller()
+#4 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-22 00:55:47 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\MXPacGroup\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\MXPacGroup\system\Model.php(717): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\MXPacGroup\app\Controllers\Auth.php(49): CodeIgniter\Model->__call('verfiyEmail', Array)
+#3 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Auth->login_controller()
+#4 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-22 00:58:00 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\MXPacGroup\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\MXPacGroup\system\Model.php(717): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\MXPacGroup\app\Controllers\Auth.php(49): CodeIgniter\Model->__call('verfiyEmail', Array)
+#3 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Auth->login_controller()
+#4 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-22 00:59:17 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\MXPacGroup\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\MXPacGroup\system\Model.php(717): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\MXPacGroup\app\Controllers\Auth.php(49): CodeIgniter\Model->__call('verfiyEmail', Array)
+#3 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Auth->login_controller()
+#4 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-11-22 01:00:24 --> Error connecting to the database: Unknown database 'users_one'
+CRITICAL - 2021-11-22 01:00:24 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'users_one'
+#0 C:\xampp\htdocs\MXPacGroup\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\MXPacGroup\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `uniid`,...', Array, false)
+#2 C:\xampp\htdocs\MXPacGroup\app\Models\LoginModel.php(15): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\MXPacGroup\app\Controllers\Auth.php(49): App\Models\LoginModel->verifyEmail('alextanweichung...')
+#4 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Auth->login_controller()
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-22 01:18:43 --> Undefined index: uniid
+#0 C:\xampp\htdocs\MXPacGroup\app\Controllers\Auth.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Auth->login_controller()
+#2 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-22 01:24:38 --> Invalid file: dashboard_view.php
+#0 C:\xampp\htdocs\MXPacGroup\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard_view....')
+#1 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('dashboard_view', Array, true)
+#2 C:\xampp\htdocs\MXPacGroup\app\Controllers\Dashboard.php(13): view('dashboard_view')
+#3 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Dashboard->dashboard_controller()
+#4 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-22 20:23:51 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\login_activity_view.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('login_activity_...', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\app\Controllers\Dashboard.php(52): view('login_activity_...', Array)
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Dashboard->login_activity()
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-22 20:26:40 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\login_activity_view.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('login_activity_...', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\app\Controllers\Dashboard.php(52): view('login_activity_...', Array)
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Dashboard->login_activity()
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-22 20:26:42 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\login_activity_view.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('login_activity_...', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\app\Controllers\Dashboard.php(52): view('login_activity_...', Array)
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Dashboard->login_activity()
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-22 20:45:36 --> Call to undefined function form_open_multipart()
+#0 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('avatar_view', Array, true)
+#3 C:\xampp\htdocs\MXPacGroup\app\Controllers\Dashboard.php(57): view('avatar_view')
+#4 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Dashboard->avatar()
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-11-22 20:46:25 --> Invalid file: layouts/base.php
+#0 C:\xampp\htdocs\MXPacGroup\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/base.ph...')
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(230): CodeIgniter\View\View->render('layouts/base.ph...', Array, true)
+#2 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('avatar_view', Array, true)
+#3 C:\xampp\htdocs\MXPacGroup\app\Controllers\Dashboard.php(58): view('avatar_view')
+#4 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Dashboard->avatar()
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

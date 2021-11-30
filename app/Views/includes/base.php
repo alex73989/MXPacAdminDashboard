@@ -134,13 +134,6 @@
                                         </li>
 
                                     <?php endif; ?>
-                                        
-
-                                    <?php if (isset($_SESSION['authenticated'])) : ?>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="logout.php">Logout</a>
-                                        </li>
-                                    <?php endif ?>
                                 </ul>
 
                             </div>

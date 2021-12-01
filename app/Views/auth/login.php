@@ -68,11 +68,11 @@
                         </div>
                         <?= form_close(); ?>
 
-                        <hr>
+                        <!-- <hr>
                         <h5 class="login_center">
                             Did not receive your Verification Email?
                             <a href="resend-email-verification.php">Resend</a>
-                        </h5>
+                        </h5> -->
 
                     </div>
                 </div>

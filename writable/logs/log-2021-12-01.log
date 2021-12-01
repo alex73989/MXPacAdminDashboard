@@ -1,0 +1,24 @@
+CRITICAL - 2021-12-01 10:02:09 --> Trying to get property 'profile_pic' of non-object
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\includes\base.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 80, Array)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\View\View.php(230): CodeIgniter\View\View->render('includes/base', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('NavbarContent/v...', Array, true)
+#5 C:\xampp\htdocs\MXPacGroup\app\Controllers\Valeo.php(25): view('NavbarContent/v...', Array)
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Valeo->valeo_controller()
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Valeo))
+#8 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-01 15:21:19 --> Undefined variable: userdata
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\includes\base.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 80, Array)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\View\View.php(230): CodeIgniter\View\View->render('includes/base', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('auth/login', Array, true)
+#5 C:\xampp\htdocs\MXPacGroup\app\Controllers\Auth.php(109): view('auth/login', Array)
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Auth->login_controller()
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

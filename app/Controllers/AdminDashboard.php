@@ -21,6 +21,6 @@ class AdminDashboard extends BaseController
             'userdata' => $this->dashboardModel->getLoggedInUserData($uniid),
         ];
 
-        return view('adDashboard/admin_dashboard_view', $data);
+        return view('NavbarContent/admin_dashboard_view', $data);
     }
 }

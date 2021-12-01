@@ -29,7 +29,14 @@
                                     <tr>
                                         <td><?= $info->id;?></td>
                                         <td><?= date("l d M Y h:i:s a", strtotime($info->login_time));?></td>
-                                        <td><?= $info->logout_time;?></td>
+                                        <td>
+                                            <?php if($info->logout_time == '0000-00-00 00:00:00'): ?>
+                                            <span style="color:green">Now, You are logged in</span>
+                                            <?php else: ?>
+                                            <?= date("l d M Y h:i:s a", strtotime($info->logout_time));?>
+                                            <?php endif; ?>
+                                            
+                                        </td>
                                         <td><?= $info->agent;?></td>
                                         <td><?= $info->ip;?></td>
                                     </tr>

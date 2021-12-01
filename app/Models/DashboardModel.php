@@ -6,6 +6,18 @@ use \CodeIgniter\Model;
 
 class DashboardModel extends Model
 {
+    public function getAllUserData()
+    {
+        $db      = \Config\Database::connect();
+        $builder = $db->table('users_one');
+        $result = $builder->get();
+        if (count($result->getResultArray()) > 0) {
+            return $result->getResult();
+        } else {
+            return false;
+        }
+    }
+
     public function getLoggedInUserData($id)
     {
         $db      = \Config\Database::connect();

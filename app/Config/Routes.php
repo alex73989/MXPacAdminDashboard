@@ -41,6 +41,8 @@ $myroutes['dashboard-routes'] ='Dashboard::dashboard_controller';
 $myroutes['home-routes'] ='Home::home_controller';
 $myroutes['login-routes'] ='Auth::login_controller';
 $myroutes['register-routes'] ='Auth::register_controller';
+$myroutes['insert'] ='Valeo::insert';
+
 
 $routes->map($myroutes);
 

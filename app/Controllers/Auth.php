@@ -6,6 +6,8 @@ use \CodeIgniter\Exceptions\PageNotFoundException;
 use \App\Models\RegisterModel;
 use \App\Models\LoginModel;
 use \App\Models\EmployeeModel;
+date_default_timezone_set('Asia/Kuala_Lumpur');
+
 
 class Auth extends BaseController
 {
@@ -406,21 +408,6 @@ class Auth extends BaseController
         } else {
             return false;
         }
-    }
-
-    public function addEmp(){
-
-    }
-    public function viewEmp(){
-
-    }
-
-    public function editEmp($id=null){
-
-    }
-
-    public function deleteEmp(){
-        
     }
 
     // public function test($name){  --Getting parameter in method

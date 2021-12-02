@@ -44,9 +44,6 @@ a.nav-link.user{
     text-align: center;
 }
 
-.dropdown-menu.show {
-    left: -75px;
-}
 
 p.fa.fa-bars:hover {
     color: var(--grey-main);

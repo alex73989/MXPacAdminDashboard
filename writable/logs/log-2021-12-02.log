@@ -1,0 +1,456 @@
+CRITICAL - 2021-12-02 01:38:00 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\MXPacGroup\MXPacAdminDashboard\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\MXPacGroup\MXPacAdminDashboard\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\MXPacGroup\MXPacAdminDashboard\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\MXPacGroup\MXPacAdminDashboard\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-02 01:38:44 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\MXPacGroup\MXPacAdminDashboard\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\MXPacGroup\MXPacAdminDashboard\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\MXPacGroup\MXPacAdminDashboard\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\MXPacGroup\MXPacAdminDashboard\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-02 01:39:03 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\MXPacGroup\MXPacAdminDashboard\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\MXPacGroup\MXPacAdminDashboard\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\MXPacGroup\MXPacAdminDashboard\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\MXPacGroup\MXPacAdminDashboard\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-02 01:39:47 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\MXPacAdminDashboard\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\MXPacAdminDashboard\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\MXPacAdminDashboard\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\MXPacAdminDashboard\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-02 01:39:51 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\MXPacAdminDashboard\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\MXPacAdminDashboard\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\MXPacAdminDashboard\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\MXPacAdminDashboard\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-02 01:40:03 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\MXPacAdminDashboard\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\MXPacAdminDashboard\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\MXPacAdminDashboard\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\MXPacAdminDashboard\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-02 01:40:11 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\MXPacAdminDashboard\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\MXPacAdminDashboard\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\MXPacAdminDashboard\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\MXPacAdminDashboard\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-02 01:41:50 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\MXPacAdminDashboard\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\MXPacAdminDashboard\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\MXPacAdminDashboard\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\MXPacAdminDashboard\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-02 01:41:55 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\MXPacAdminDashboard\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\MXPacAdminDashboard\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\MXPacAdminDashboard\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\MXPacAdminDashboard\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-02 01:43:01 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\MXPacAdminDashboard\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\MXPacAdminDashboard\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\MXPacAdminDashboard\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\MXPacAdminDashboard\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-02 01:44:58 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\MXPacAdminDashboard\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\MXPacAdminDashboard\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\MXPacAdminDashboard\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\MXPacAdminDashboard\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-02 02:19:49 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-02 02:20:32 --> Undefined variable $validation
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\NavbarContent\valeo_view.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('NavbarContent/v...', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\app\Controllers\Valeo.php(25): view('NavbarContent/v...', Array)
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Valeo->valeo_controller()
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Valeo))
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 02:20:33 --> Undefined variable $validation
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\NavbarContent\valeo_view.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('NavbarContent/v...', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\app\Controllers\Valeo.php(25): view('NavbarContent/v...', Array)
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Valeo->valeo_controller()
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Valeo))
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 02:21:25 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\MXPacGroup\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('/Valeo/valeo_co...')
+#1 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('/Valeo/valeo_co...')
+#2 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 16:23:40 --> Undefined variable $userdata
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\includes\base.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\View\View.php(230): CodeIgniter\View\View->render('includes/base', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('errors/custom_e...', Array, true)
+#5 C:\xampp\htdocs\MXPacGroup\app\Config\Routes.php(48): view('errors/custom_e...')
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->Config\{closure}('Controller meth...')
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 16:23:59 --> Undefined variable $userdata
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\includes\base.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\View\View.php(230): CodeIgniter\View\View->render('includes/base', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('errors/custom_e...', Array, true)
+#5 C:\xampp\htdocs\MXPacGroup\app\Config\Routes.php(48): view('errors/custom_e...')
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->Config\{closure}('Controller meth...')
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 16:25:28 --> Undefined variable $userdata
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\includes\base.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\View\View.php(230): CodeIgniter\View\View->render('includes/base', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('errors/custom_e...', Array, true)
+#5 C:\xampp\htdocs\MXPacGroup\app\Config\Routes.php(48): view('errors/custom_e...')
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->Config\{closure}('Controller meth...')
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 16:39:17 --> Undefined variable $userdata
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\includes\base.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\View\View.php(230): CodeIgniter\View\View->render('includes/base', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('errors/custom_e...', Array, true)
+#5 C:\xampp\htdocs\MXPacGroup\app\Config\Routes.php(48): view('errors/custom_e...')
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->Config\{closure}('Controller meth...')
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 16:41:23 --> Undefined variable $userdata
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\includes\base.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\View\View.php(230): CodeIgniter\View\View->render('includes/base', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('errors/custom_e...', Array, true)
+#5 C:\xampp\htdocs\MXPacGroup\app\Config\Routes.php(48): view('errors/custom_e...')
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->Config\{closure}('Controller meth...')
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 16:47:18 --> Undefined variable $userdata
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\includes\base.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\View\View.php(230): CodeIgniter\View\View->render('includes/base', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('errors/custom_e...', Array, true)
+#5 C:\xampp\htdocs\MXPacGroup\app\Config\Routes.php(51): view('errors/custom_e...')
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->Config\{closure}('Controller meth...')
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 16:48:54 --> Undefined variable $userdata
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\includes\base.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\View\View.php(230): CodeIgniter\View\View->render('includes/base', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('errors/custom_e...', Array, true)
+#5 C:\xampp\htdocs\MXPacGroup\app\Config\Routes.php(51): view('errors/custom_e...')
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->Config\{closure}('Controller meth...')
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 16:50:34 --> Undefined variable $userdata
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\includes\base.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\View\View.php(230): CodeIgniter\View\View->render('includes/base', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('errors/custom_e...', Array, true)
+#5 C:\xampp\htdocs\MXPacGroup\app\Config\Routes.php(51): view('errors/custom_e...')
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->Config\{closure}('Controller meth...')
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 16:54:07 --> Undefined variable $userdata
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\includes\base.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\View\View.php(230): CodeIgniter\View\View->render('includes/base', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('errors/custom_e...', Array, true)
+#5 C:\xampp\htdocs\MXPacGroup\app\Config\Routes.php(51): view('errors/custom_e...')
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->Config\{closure}('Controller meth...')
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 16:55:05 --> Undefined variable $userdata
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\includes\base.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\View\View.php(230): CodeIgniter\View\View->render('includes/base', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('errors/custom_e...', Array, true)
+#5 C:\xampp\htdocs\MXPacGroup\app\Config\Routes.php(51): view('errors/custom_e...')
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->Config\{closure}('Controller meth...')
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 16:55:24 --> Undefined variable $userdata
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\includes\base.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\View\View.php(230): CodeIgniter\View\View->render('includes/base', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('errors/custom_e...', Array, true)
+#5 C:\xampp\htdocs\MXPacGroup\app\Config\Routes.php(51): view('errors/custom_e...')
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->Config\{closure}('Controller meth...')
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 16:55:37 --> Undefined variable $userdata
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\includes\base.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\View\View.php(230): CodeIgniter\View\View->render('includes/base', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('errors/custom_e...', Array, true)
+#5 C:\xampp\htdocs\MXPacGroup\app\Config\Routes.php(51): view('errors/custom_e...')
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->Config\{closure}('Controller meth...')
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 16:57:56 --> Undefined variable $userdata
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\includes\base.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\View\View.php(230): CodeIgniter\View\View->render('includes/base', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('errors/custom_e...', Array, true)
+#5 C:\xampp\htdocs\MXPacGroup\app\Config\Routes.php(51): view('errors/custom_e...')
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->Config\{closure}('Controller meth...')
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 16:57:59 --> Undefined variable $userdata
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\includes\base.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\View\View.php(230): CodeIgniter\View\View->render('includes/base', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('errors/custom_e...', Array, true)
+#5 C:\xampp\htdocs\MXPacGroup\app\Config\Routes.php(51): view('errors/custom_e...')
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->Config\{closure}('Controller meth...')
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 02:58:27 --> Undefined property: App\Controllers\Valeo::$input
+#0 C:\xampp\htdocs\MXPacGroup\app\Controllers\Valeo.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Valeo->insert()
+#2 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Valeo))
+#3 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 02:59:18 --> Undefined property: App\Controllers\Valeo::$input
+#0 C:\xampp\htdocs\MXPacGroup\app\Controllers\Valeo.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Valeo->insert()
+#2 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Valeo))
+#3 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 02:59:24 --> Undefined property: App\Controllers\Valeo::$input
+#0 C:\xampp\htdocs\MXPacGroup\app\Controllers\Valeo.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Valeo->insert()
+#2 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Valeo))
+#3 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 17:04:47 --> Undefined variable $userdata
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\includes\base.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\View\View.php(230): CodeIgniter\View\View->render('includes/base', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('errors/custom_e...', Array, true)
+#5 C:\xampp\htdocs\MXPacGroup\app\Config\Routes.php(48): view('errors/custom_e...')
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->Config\{closure}('Controller meth...')
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 17:05:12 --> Undefined variable $userdata
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\includes\base.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\View\View.php(230): CodeIgniter\View\View->render('includes/base', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('errors/custom_e...', Array, true)
+#5 C:\xampp\htdocs\MXPacGroup\app\Config\Routes.php(48): view('errors/custom_e...')
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->Config\{closure}('Controller meth...')
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 17:06:07 --> Undefined variable $userdata
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\includes\base.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\View\View.php(230): CodeIgniter\View\View->render('includes/base', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('errors/custom_e...', Array, true)
+#5 C:\xampp\htdocs\MXPacGroup\app\Config\Routes.php(48): view('errors/custom_e...')
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->Config\{closure}('Controller meth...')
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 17:07:37 --> Undefined variable $userdata
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\includes\base.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\View\View.php(230): CodeIgniter\View\View->render('includes/base', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('errors/custom_e...', Array, true)
+#5 C:\xampp\htdocs\MXPacGroup\app\Config\Routes.php(48): view('errors/custom_e...')
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->Config\{closure}('Controller meth...')
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 17:11:53 --> Undefined variable $userdata
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\includes\base.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\View\View.php(230): CodeIgniter\View\View->render('includes/base', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('errors/custom_e...', Array, true)
+#5 C:\xampp\htdocs\MXPacGroup\app\Config\Routes.php(48): view('errors/custom_e...')
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->Config\{closure}('Controller or i...')
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 17:18:22 --> Undefined variable $userdata
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\includes\base.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\View\View.php(230): CodeIgniter\View\View->render('includes/base', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('errors/custom_e...', Array, true)
+#5 C:\xampp\htdocs\MXPacGroup\app\Config\Routes.php(48): view('errors/custom_e...')
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->Config\{closure}('Controller or i...')
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 17:18:31 --> Undefined variable $userdata
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\includes\base.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\View\View.php(230): CodeIgniter\View\View->render('includes/base', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('errors/custom_e...', Array, true)
+#5 C:\xampp\htdocs\MXPacGroup\app\Config\Routes.php(48): view('errors/custom_e...')
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->Config\{closure}('Controller or i...')
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 17:19:18 --> Undefined variable $userdata
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\includes\base.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\View\View.php(230): CodeIgniter\View\View->render('includes/base', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('errors/custom_e...', Array, true)
+#5 C:\xampp\htdocs\MXPacGroup\app\Config\Routes.php(48): view('errors/custom_e...')
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->Config\{closure}('Controller or i...')
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 17:19:19 --> Undefined variable $userdata
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\includes\base.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\View\View.php(230): CodeIgniter\View\View->render('includes/base', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('errors/custom_e...', Array, true)
+#5 C:\xampp\htdocs\MXPacGroup\app\Config\Routes.php(48): view('errors/custom_e...')
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->Config\{closure}('Controller or i...')
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 17:19:23 --> Undefined variable $userdata
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\includes\base.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\View\View.php(230): CodeIgniter\View\View->render('includes/base', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('errors/custom_e...', Array, true)
+#5 C:\xampp\htdocs\MXPacGroup\app\Config\Routes.php(48): view('errors/custom_e...')
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->Config\{closure}('Controller or i...')
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 17:19:26 --> Undefined variable $userdata
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\includes\base.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\View\View.php(230): CodeIgniter\View\View->render('includes/base', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('errors/custom_e...', Array, true)
+#5 C:\xampp\htdocs\MXPacGroup\app\Config\Routes.php(48): view('errors/custom_e...')
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->Config\{closure}('Controller or i...')
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 17:27:41 --> Undefined variable $userdata
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\includes\base.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\View\View.php(230): CodeIgniter\View\View->render('includes/base', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('errors/custom_e...', Array, true)
+#5 C:\xampp\htdocs\MXPacGroup\app\Config\Routes.php(50): view('errors/custom_e...')
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->Config\{closure}('Controller meth...')
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 17:40:19 --> Invalid file: Ajax/ajax.php
+#0 C:\xampp\htdocs\MXPacGroup\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Ajax/ajax.php')
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(432): CodeIgniter\View\View->render('Ajax/ajax', NULL, true)
+#2 C:\xampp\htdocs\MXPacGroup\app\Views\includes\base.php(223): CodeIgniter\View\View->include('Ajax/ajax')
+#3 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\MXPacGroup\system\View\View.php(230): CodeIgniter\View\View->render('includes/base', Array, true)
+#6 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('NavbarContent/v...', Array, true)
+#7 C:\xampp\htdocs\MXPacGroup\app\Controllers\Valeo.php(26): view('NavbarContent/v...', Array)
+#8 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Valeo->valeo_controller()
+#9 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Valeo))
+#10 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-12-02 17:44:05 --> include(ajax.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\includes\base.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(ajax.ph...', 'C:\\xampp\\htdocs...', 222)
+#1 C:\xampp\htdocs\MXPacGroup\app\Views\includes\base.php(222): include()
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\MXPacGroup\system\View\View.php(230): CodeIgniter\View\View->render('includes/base', Array, true)
+#5 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('NavbarContent/v...', Array, true)
+#6 C:\xampp\htdocs\MXPacGroup\app\Controllers\Valeo.php(26): view('NavbarContent/v...', Array)
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Valeo->valeo_controller()
+#8 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Valeo))
+#9 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-12-02 17:44:42 --> include(ajax.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\includes\base.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(ajax.ph...', 'C:\\xampp\\htdocs...', 222)
+#1 C:\xampp\htdocs\MXPacGroup\app\Views\includes\base.php(222): include()
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\MXPacGroup\system\View\View.php(230): CodeIgniter\View\View->render('includes/base', Array, true)
+#5 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('NavbarContent/v...', Array, true)
+#6 C:\xampp\htdocs\MXPacGroup\app\Controllers\Valeo.php(26): view('NavbarContent/v...', Array)
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Valeo->valeo_controller()
+#8 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Valeo))
+#9 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-12-02 17:50:24 --> Undefined variable $userdata
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\includes\base.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\View\View.php(230): CodeIgniter\View\View->render('includes/base', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('errors/custom_e...', Array, true)
+#5 C:\xampp\htdocs\MXPacGroup\app\Config\Routes.php(50): view('errors/custom_e...')
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(841): CodeIgniter\Router\RouteCollection->Config\{closure}('Controller meth...')
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(332): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

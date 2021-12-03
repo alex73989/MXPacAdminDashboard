@@ -45,7 +45,7 @@
                                                             <?= display_error($validation, 'employeeid')?>
                                                         </span>
                                                     </div>
-                                                    <!-- <div class="form-group mb-3">
+                                                    <div class="form-group mb-3">
                                                         <label for="">Username :</label>
                                                         <input type="text" name="username" id="username" class="form-control" placeholder="Enter Your Username" value='<?= set_value('username')?>'>
                                                         <span class = "text-danger">
@@ -59,7 +59,7 @@
                                                             <?= display_error($validation, 'fullname')?>
                                                         </span>
                                                     </div>
-                                                    <div class="form-group mb-3">
+                                                    <!-- <div class="form-group mb-3">
                                                         <label for="">Mobile Number :</label>
                                                         <input type="text" name="mobile" id="mobile" class="form-control" placeholder="Enter Your Mobile Number" value='<?= set_value('mobile')?>'>
                                                         <span class = "text-danger">

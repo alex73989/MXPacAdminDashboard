@@ -1,0 +1,42 @@
+CRITICAL - 2021-12-03 06:56:02 --> Undefined variable $response
+#0 C:\xampp\htdocs\MXPacGroup\app\Controllers\Valeo.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 86)
+#1 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Valeo->insert()
+#2 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Valeo))
+#3 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 06:58:03 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 C:\xampp\htdocs\MXPacGroup\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('/Valeo/valeo_co...')
+#1 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('/Valeo/valeo_co...')
+#2 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 07:00:29 --> Undefined variable $response
+#0 C:\xampp\htdocs\MXPacGroup\app\Controllers\Valeo.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 87)
+#1 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Valeo->insert()
+#2 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Valeo))
+#3 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 07:01:39 --> Undefined variable $response
+#0 C:\xampp\htdocs\MXPacGroup\app\Controllers\Valeo.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 88)
+#1 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Valeo->insert()
+#2 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Valeo))
+#3 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 07:03:27 --> Undefined variable $response
+#0 C:\xampp\htdocs\MXPacGroup\app\Controllers\Valeo.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 88)
+#1 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Valeo->insert()
+#2 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Valeo))
+#3 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 07:04:00 --> Undefined variable $response
+#0 C:\xampp\htdocs\MXPacGroup\app\Controllers\Valeo.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 88)
+#1 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Valeo->insert()
+#2 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Valeo))
+#3 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

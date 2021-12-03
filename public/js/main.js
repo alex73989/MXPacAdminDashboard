@@ -43,10 +43,11 @@ $(document).on("click", "#add", function(e){
     }
     else
     {
-        console.log(""),
+        console.log("http://localhost/MXPacGroup/insert");
         $.ajax({
-            url: $base_url + "/insert",
-            type: 'post',
+            url: "http://localhost/MXPacGroup/insert",
+            type: "POST",
+            dataType: "JSON",
             data: {
                 employeeid: employeeid,
                 username: username,

@@ -2,19 +2,16 @@
 
 namespace App\Controllers;
 use App\Models\DashboardModel;
-use App\Models\RegisterModel;
+use App\Models\EmployeeModel;
 
 class Valeo extends BaseController
 {
     public $dashboardModel;
-    public $registerModel;
     
     public function __construct()
     {
         $this->dashboardModel = new DashboardModel();
-        $this->registerModel = new RegisterModel();
         helper('form');
-        $validation =  \Config\Services::validation();
     }
 
     public function valeo_controller()
@@ -23,8 +20,6 @@ class Valeo extends BaseController
         $data = [
             'page_title' => 'Valeo',
             'userdata' => $this->dashboardModel->getLoggedInUserData(session()->get('logged_user')),
-            'userAllData' => $this->dashboardModel->getAllUserData(),
-            'validation' => null,
         ];
 
         return view('NavbarContent/valeo_view', $data);
@@ -32,50 +27,67 @@ class Valeo extends BaseController
 
     public function insert()
     {
-        
-        // $uniid = session()->get('logged_user');
+        $employee = new EmployeeModel();
         $data = [
-            'userdata' => $this->dashboardModel->getLoggedInUserData(session()->get('logged_user')),
+            'employeeid' => $this->request->getPost('employeeid'),
+            'username' => $this->request->getPost('username'),
+            'fullname' => $this->request->getPost('fullname'),
+
         ];
-        // print_r($data);
-        if($this->request->isAJAX())
-        {
-            if ($this->request->getMethod() == 'post') {
-                echo "ajax request";
-                $rules = [
-                    'employeeid' => 'required',
-                    'username' => 'required|min_length[4]|max_length[20]',
-                    'fullname' => 'required',
-                    'email' => 'required|valid_email|is_unique[users_one.email]',
-                    'pass' => 'required|min_length[6]|max_length[16]',
-                    'mobile' => 'required|exact_length[10]|numeric',
-                    'cardid' => 'required',
-                    'usergroup' => 'required',
-                    'groupdescription' => 'required',
-                ];
-                if($this->validate($rules))
-                {
-                    
-                    $response = [
-                        'success' => true,
-                        'msg' => "User created",
-                    ];
-                }
-                else 
-                {
-                    $response = [
-                        'success' => false,
-                        'msg' => "Failed to create user",
-                    ];
-                }
-                    
-                
-                return $this->response->setJSON($response);
-            }
+        if($employee->save($data)){
+            $data = [
+                'status' => 'success',
+                'message' => 'Record added Successfully'
+            ];
         }
-        else
-        {
-            echo "No direct script access allowed";
+        else{
+            $data = [
+                'status' => 'error',
+                'message' => 'Failed'
+            ];
+            
         }
+        return $this->response->setJSON($data);
+        
+    }
+
+    public function fetch(){
+        $employee = new EmployeeModel();
+        $data['employee_table'] = $employee->findAll();
+        return $this->response->setJSON($data);
+    }
+
+    public function view(){
+        $employee = new EmployeeModel();
+        $main_id = $this->request->getPost('main_id');
+        $data['employee_table'] = $employee->find($main_id);
+        return $this->response->setJSON($data);
+    }
+
+    public function edit(){
+        $employee = new EmployeeModel();
+        $main_id = $this->request->getPost('main_id');
+        $data['employee_table'] = $employee->find($main_id);
+        return $this->response->setJSON($data);
+    }
+
+    public function update(){
+        $employee = new EmployeeModel();
+        $main_id = $this->request->getPost('main_id');
+        $data = [
+            'employeeid' => $this->request->getPost('employeeid'),
+            'username' => $this->request->getPost('username'),
+            'fullname' => $this->request->getPost('fullname'),
+        ];
+        $employee->update($main_id, $data);
+        $message = ['status' => 'Updated Successfully'];
+        return $this->response->setJSON($message);
+    }
+
+    public function delete(){
+        $employee = new EmployeeModel();
+        $employee->delete($this->request->getPost('main_id'));
+        $message = ['status' => 'Deleted Successfully'];
+        return $this->response->setJSON($message);
     }
 }

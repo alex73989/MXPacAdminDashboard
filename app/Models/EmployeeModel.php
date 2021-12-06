@@ -6,5 +6,13 @@ use \CodeIgniter\Model;
 
 class EmployeeModel extends Model
 {
-    protected $table = 'users_one';
+    protected $table = 'employee_table';
+    protected $primaryKey = 'id';
+    protected $allowedFields = [
+        'employeeid',
+        'username',
+        'fullname'
+    ];
 }
+
+?>

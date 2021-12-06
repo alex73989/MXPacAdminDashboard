@@ -60,6 +60,17 @@ $routes->group('', ['filter' => 'isLoggedIn'], function($routes){
 
 });
 
+//  JQuery AJAX CRUD - Employee Data
+$routes->post('valeo/insert','Valeo::insert');
+$routes->get('valeo/getdata','Valeo::fetch');
+$routes->post('valeo/viewemployee','Valeo::view');
+$routes->post('valeo/edit','Valeo::edit');
+$routes->post('valeo/update','Valeo::update');
+$routes->post('valeo/delete','Valeo::delete');
+
+
+
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing

@@ -152,8 +152,9 @@
                                             <thead>
                                                 <tr>
                                                     <th>Id</th>
+                                                    <th>Employee ID</th>
                                                     <th>Username</th>
-                                                    <th>Email</th>
+                                                    <th>Full Name</th>
                                                     <!-- <th>Password</th> -->
                                                     <!-- <th>Mobile</th> -->
                                                     <!-- <th>Profile Pic</th>
@@ -187,6 +188,10 @@
 <?= $this->section("scripts"); ?>
 
 <script>
+
+$(document).ready(function() {
+    $('#employeeTable').DataTable();
+} );
 
     $(document).ready(function(){
         loademployee();
@@ -311,9 +316,9 @@
                         <td>'+value['fullname']+'</td>\
                         <td>'+value['created_at']+'</td>\
                         <td>\
-                            <a href = "#" class = "badge btn-info view_btn">VIEW</a>\
-                            <a href = "#" class = "badge btn-primary edit_btn">EDIT</a>\
-                            <a href = "#" class = "badge btn-danger delete_btn">Delete</a>\
+                            <a href = "#" class = "badge btn btn-info view_btn">VIEW</a>\
+                            <a href = "#" class = "badge btn btn-primary edit_btn">EDIT</a>\
+                            <a href = "#" class = "badge btn btn-danger delete_btn">Delete</a>\
                         </td>\
                     </tr>');
                 });

@@ -15,3 +15,11 @@
     text-align: center;
     padding: 10px;
 }
+
+.paginate_button {
+    margin: 2px;
+}
+
+div#employeeTable_paginate{
+    margin-bottom: 16px;
+}

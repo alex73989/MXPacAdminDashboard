@@ -1,0 +1,9 @@
+CRITICAL - 2021-12-07 00:14:43 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\MXPacGroup\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\MXPacGroup\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\xampp\htdocs\MXPacGroup\app\Controllers\Valeo.php(101): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Valeo->delete()
+#4 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Valeo))
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

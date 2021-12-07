@@ -18,7 +18,7 @@
                         <h4>User Information</h4>
                         <hr>
                             <div class="row">
-                                <div class="col-md-12 mt-2">
+                                <div class="col-md-12 mt-4">
 
                                     <!-- Add Records Modal -->
                                     <!-- Button trigger modal -->
@@ -125,7 +125,7 @@
                                         </div>
                                     </div>
 
-                                    <!-- Delete Records Modal -->
+                                    <!-- Delete Records Modal
                                     <div class="modal fade" id="EmployeeDeleteModal" tabindex="-1" aria-labelledby="employeeModalLabel" aria-hidden="true">
                                         <div class="modal-dialog">
                                             <div class="modal-content">
@@ -143,11 +143,11 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
 
                                     
 
-                                    <div class="table-responsive">
+                                    <div class="table table-bordered table-striped mt-3" width="100%">
                                         <table class = "table" id = "employeeTable">
                                             <thead>
                                                 <tr>
@@ -155,21 +155,13 @@
                                                     <th>Employee ID</th>
                                                     <th>Username</th>
                                                     <th>Full Name</th>
-                                                    <!-- <th>Password</th> -->
-                                                    <!-- <th>Mobile</th> -->
-                                                    <!-- <th>Profile Pic</th>
-                                                    <th>Created At</th>
-                                                    <th>Status</th>
-                                                    <th>UNIID</th>
-                                                    <th>Activation date</th>
-                                                    <th>Updated At</th> -->
                                                     <th>Created at</th>
                                                     <th>Action</th>
                                                 </tr>
                                             </thead>
-                                            <tbody class = "employeedata">
+                                            <!-- <tbody class = "employeedata">
 
-                                            </tbody>
+                                            </tbody> -->
                                         </table>
                                             
                                     </div>
@@ -189,215 +181,286 @@
 
 <script>
 
-$(document).ready(function() {
-    $('#employeeTable').DataTable();
-} );
-
-    $(document).ready(function(){
-        loademployee();
-
-        $(document).on('click','.view_btn',function(){
-
-            var main_id = $(this).closest('tr').find('.main_id').text();
-            // alert(main_id);
-
-            $.ajax({
-                method: "POST",
-                url: "<?php echo base_url() ?>/valeo/viewemployee",
-                data: {
-                    'main_id': main_id,
-                },
-                success: function(response){
-                    // console.log(response);
-                    $.each(response, function(key, empview){
-                        // console.log(empview['username']);
-                        $('.main_id_view').text(empview['id']);
-                        $('.empid_view').text(empview['employeeid']);
-                        $('.username_view').text(empview['username']);
-                        $('.fullname_view').text(empview['fullname']);
-                        $('#EmployeeViewModal').modal('show');
-                    });
-                }
-            });
-        });
-
-        $(document).on('click','.edit_btn', function(){
-
-            var main_id = $(this).closest('tr').find('.main_id').text();
-
-            $.ajax({
-                method: "POST",
-                url: "<?php echo base_url() ?>/valeo/edit",
-                data: {
-                    'main_id': main_id,
-                },
-                success: function(response){
-                    $.each(response, function(key, empvalue){
-                        $('#emp_main_id').val(empvalue['id']);
-                        $('#emp_id').val(empvalue['employeeid']);
-                        $('#emp_username').val(empvalue['username']);
-                        $('#emp_fullname').val(empvalue['fullname']);
-                        $('#EmployeeEditModal').modal('show');
-                    });
-                }
-            });
-
-        });
-
-        $(document).on('click','.ajaxemployee-update', function(){
-            
-            var data = {
-                'main_id': $('#emp_main_id').val(),
-                'employeeid': $('#emp_id').val(),
-                'username': $('#emp_username').val(),
-                'fullname': $('#emp_fullname').val(),
-            };
-
-            $.ajax({
-                method: "POST",
-                url: "<?php echo base_url() ?>/valeo/update",
-                data: data,
-                success: function(response){
-                    $('#EmployeeEditModal').modal('hide');
-                    $('.employeedata').html("");
-                    loademployee();
-
-                    alertify.set('notifier','position','top-right');
-                    alertify.success(response.status);
-                }
-            });
-        });
-
-        $(document).on('click','.delete_btn', function(){
-
-            var main_id = $(this).closest('tr').find('.main_id').text();
-            $('#main_delete_id').val(main_id);
-            $('#EmployeeDeleteModal').modal('show');
-        });
-
-        $(document).on('click','.ajaxemployee-delete', function(){
-
-            var main_id = $('#main_delete_id').val();
-
-            $.ajax({
-                method: "POST",
-                url: "<?php echo base_url() ?>/valeo/delete",
-                data: {
-                    'main_id' : main_id
-                },
-                success: function (response){
-                    $('#EmployeeDeleteModal').modal('hide');
-                    $('.employeedata').html("");
-                    loademployee();
-
-                    alertify.set('notifier','position','top-right');
-                    alertify.success(response.status);
-                }
-            });
-
-        });
-        
-
-    });
-
+    // Load Employee Data Into Webpage
     function loademployee(){
         $.ajax({
-            method: "GET",
+            method: "POST",
             url: "<?php echo base_url() ?>/valeo/getdata",
             success: function(response){
                 // console.log(response.employee_table);
-                $.each(response.employee_table, function(key, value){
-                    // console.log(value['employeeid']);
-                    $('.employeedata').append(
-                        '<tr>\
-                        <td class = "main_id">'+value['id']+'</td>\
-                        <td>'+value['employeeid']+'</td>\
-                        <td>'+value['username']+'</td>\
-                        <td>'+value['fullname']+'</td>\
-                        <td>'+value['created_at']+'</td>\
-                        <td>\
-                            <a href = "#" class = "badge btn btn-info view_btn">VIEW</a>\
-                            <a href = "#" class = "badge btn btn-primary edit_btn">EDIT</a>\
-                            <a href = "#" class = "badge btn btn-danger delete_btn">Delete</a>\
-                        </td>\
-                    </tr>');
+                // $.each(response.employee_table, function(key, value){
+                //     // console.log(value['employeeid']);
+                //     $('.employeedata').append(
+                //         '<tr>\
+                //         <td class = "main_id">'+value['id']+'</td>\
+                //         <td>'+value['employeeid']+'</td>\
+                //         <td>'+value['username']+'</td>\
+                //         <td>'+value['fullname']+'</td>\
+                //         <td>'+value['created_at']+'</td>\
+                //         <td>\
+                //             <a href = "#" class = "badge btn btn-info view_btn">VIEW</a>\
+                //             <a href = "#" class = "badge btn btn-primary edit_btn">EDIT</a>\
+                //             <a href = "#" class = "badge btn btn-danger delete_btn">Delete</a>\
+                //         </td>\
+                //     </tr>');
+                // });
+                $('#employeeTable').DataTable({
+                    "data": response.employee_table,
+                    responsive: true,
+                    "pagingType": "full_numbers",
+                    dom: 
+                        "<'row'<'col-sm-12 col-md-4'l><'col-sm-12 col-md-4 text-center'B><'col-sm-12 col-md-4'f>>" +
+                        "<'row'<'col-sm-12'tr>>" +
+                        "<'row'<'col-sm-12 col-md-6'i><'col-sm-12 col-md-6'p>>",
+                    buttons: [
+                        'copy', 'excel', 'pdf'
+                    ],
+                    "columns": [
+                        { "data": "id", sClass: "main_id"},
+                        { "data": "employeeid" },
+                        { "data": "username" },
+                        { "data": "fullname" },
+                        { "data": "created_at" },
+                        { "render": function(data, type, row, meta){
+                            return `
+                                <a href = "#" class = "btn btn-sm btn-outline-primary view_btn"
+                                    value = "${row.id}"><i class="fa-solid fa-eye"></i></a>
+                                <a href = "#" class = "btn btn-sm btn-outline-success edit_btn" 
+                                    value = "${row.id}"><i class="fa-solid fa-pen-to-square"></i></a>
+                                <a href = "#" class = "btn btn-sm btn-outline-danger delete_btn" 
+                                    value = "${row.id}"><i class="fa-solid fa-trash-can"></i></a>
+                            `;
+                        }}
+                    ]
                 });
             }
         });
     }
-</script>
-
-<!-- ========== ADD EMPLOYEE RECORDS ========== -->
-<script>
+    loademployee();
     
-    $(document).ready(function(){
-        $(document).on('click','.ajaxemployee-add',function(){
+    // CRUD Operation
+    $(document).on('click','.view_btn',function(){
 
-            if($.trim($('.employeeid').val()).length == 0){
-                error_empid = 'Please enter Employee ID';
-                $('#error_empid').text(error_empid);
-            }
-            else{
-                error_empid = '';
-                $('#error_empid').text(error_empid);
-            }
+        var main_id = $(this).attr("value");
+        // alert(main_id);
 
-            if($.trim($('.username').val()).length == 0){
-                error_username = 'Please enter Username';
-                $('#error_username').text(error_username);
+        $.ajax({
+            method: "POST",
+            url: "<?php echo base_url() ?>/valeo/viewemployee",
+            data: {
+                'main_id': main_id,
+            },
+            success: function(response){
+                // console.log(response);
+                $.each(response, function(key, empview){
+                    // console.log(empview['username']);
+                    $('.main_id_view').text(empview['id']);
+                    $('.empid_view').text(empview['employeeid']);
+                    $('.username_view').text(empview['username']);
+                    $('.fullname_view').text(empview['fullname']);
+                    $('#EmployeeViewModal').modal('show');
+                });
             }
-            else{
-                error_username = '';
-                $('#error_username').text(error_username);
-            }
+        });
+    });
 
-            if($.trim($('.fullname').val()).length == 0){
-                error_fullname = 'Please enter Full Name';
-                $('#error_fullname').text(error_fullname);
-            }
-            else{
-                error_fullname = '';
-                $('#error_fullname').text(error_fullname);
-            }
+    $(document).on('click','.edit_btn', function(){
 
-            if(error_empid != '' || error_username != '' || error_fullname != ''){
-                return false;
+        var main_id = $(this).attr("value");
+
+        $.ajax({
+            method: "POST",
+            url: "<?php echo base_url() ?>/valeo/edit",
+            data: {
+                'main_id': main_id,
+            },
+            success: function(response){
+                $.each(response, function(key, empvalue){
+                    $('#emp_main_id').val(empvalue['id']);
+                    $('#emp_id').val(empvalue['employeeid']);
+                    $('#emp_username').val(empvalue['username']);
+                    $('#emp_fullname').val(empvalue['fullname']);
+                    $('#EmployeeEditModal').modal('show');
+                });
             }
-            else{
+        });
 
-                var data = {
-                    'employeeid' : $('.employeeid').val(),
-                    'username' : $('.username').val(),
-                    'fullname' : $('.fullname').val(),
-                };
+    });
 
+    $(document).on('click','.ajaxemployee-update', function(){
+        
+        var data = {
+            'main_id': $('#emp_main_id').val(),
+            'employeeid': $('#emp_id').val(),
+            'username': $('#emp_username').val(),
+            'fullname': $('#emp_fullname').val(),
+        };
+
+        $.ajax({
+            method: "POST",
+            url: "<?php echo base_url() ?>/valeo/update",
+            data: data,
+            success: function(response){
+                if(response.status == "success"){
+                    $('#employeeTable').DataTable().destroy();
+                    loademployee();
+                    $('#EmployeeEditModal').modal('hide');
+                    toastr["success"](response.message);
+                }
+                else{
+                    $('#EmployeeEditModal').modal('hide');
+                    toastr["error"](response.message);
+                }
+            }
+        });
+    });
+
+    // $(document).on('click','.delete_btn', function(){
+
+    //     var main_id = $(this).closest('tr').find('.main_id').text();
+    //     $('#main_delete_id').val(main_id);
+    //     $('#EmployeeDeleteModal').modal('show');
+    // });
+
+    $(document).on('click','.delete_btn', function(){
+
+        var del_id = $(this).attr("value");
+
+        // SweetAlert2 js
+        const swalWithBootstrapButtons = Swal.mixin({
+            customClass: {
+                confirmButton: 'btn btn-success swal_btn_design_confirm',
+                cancelButton: 'btn btn-danger swal_btn_design_cancel'
+            },
+            buttonsStyling: false
+        })
+
+        swalWithBootstrapButtons.fire({
+            title: 'Are you sure?',
+            text: "You won't be able to revert this!",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonText: 'Yes, delete it!',
+            cancelButtonText: 'No, cancel!',
+            reverseButtons: true
+            }).then((result) => {
+            if (result.isConfirmed)
+            {
+                //Delete AJAX
                 $.ajax({
                     method: "POST",
-                    url: "<?php echo base_url() ?>/valeo/insert",
-                    data: data,
-                    success: function(response){
-                        
-                        $('.employeedata').html("");
-                        loademployee();
-
+                    url: "<?php echo base_url() ?>/valeo/delete",
+                    data: {
+                        'del_id' : del_id
+                    },
+                    success: function (response){
                         if(response.status == "success"){
-                            $('#employeeModal').modal('hide');
-                            $('#employeeModal').find('input').val('');
-                            toastr["success"](response.message);
+                            $('#employeeTable').DataTable().destroy();
+                            loademployee();
+                            swalWithBootstrapButtons.fire(
+                                'Deleted!',
+                                'Your file has been deleted.',
+                                'success'
+                            );
                         }
                         else{
-                            $('#employeeModal').modal('hide');
-                            $('#employeeModal').find('input').val('');
-                            toastr["error"](response.message);
+                            swalWithBootstrapButtons.fire(
+                                'Cancelled',
+                                'Your imaginary file is safe :)',
+                                'error'
+                            );
                         }
                     }
                 });
+
+                
             }
-
-
-
+            else if (
+                /* Read more about handling dismissals below */
+                result.dismiss === Swal.DismissReason.cancel
+            ) {
+                swalWithBootstrapButtons.fire(
+                'Cancelled',
+                'Your imaginary file is safe :)',
+                'error'
+                )
+            }
         });
+
     });
+        
+
+    
+
+
+// ========== ADD EMPLOYEE RECORDS ========== 
+
+    $(document).on('click','.ajaxemployee-add',function(){
+
+        if($.trim($('.employeeid').val()).length == 0){
+            error_empid = 'Please enter Employee ID';
+            $('#error_empid').text(error_empid);
+        }
+        else{
+            error_empid = '';
+            $('#error_empid').text(error_empid);
+        }
+
+        if($.trim($('.username').val()).length == 0){
+            error_username = 'Please enter Username';
+            $('#error_username').text(error_username);
+        }
+        else{
+            error_username = '';
+            $('#error_username').text(error_username);
+        }
+
+        if($.trim($('.fullname').val()).length == 0){
+            error_fullname = 'Please enter Full Name';
+            $('#error_fullname').text(error_fullname);
+        }
+        else{
+            error_fullname = '';
+            $('#error_fullname').text(error_fullname);
+        }
+
+        if(error_empid != '' || error_username != '' || error_fullname != ''){
+            return false;
+        }
+        else{
+
+            var data = {
+                'employeeid' : $('.employeeid').val(),
+                'username' : $('.username').val(),
+                'fullname' : $('.fullname').val(),
+            };
+
+            $.ajax({
+                method: "POST",
+                url: "<?php echo base_url() ?>/valeo/insert",
+                data: data,
+                success: function(response){
+                    if(response.status == "success"){
+                        $('#employeeTable').DataTable().destroy();
+                        loademployee();
+                        $('#employeeModal').modal('hide');
+                        $('#employeeModal').find('input').val('');
+                        toastr["success"](response.message);
+                    }
+                    else{
+                        $('#employeeModal').modal('hide');
+                        $('#employeeModal').find('input').val('');
+                        toastr["error"](response.message);
+                    }
+                }
+            });
+        }
+
+
+
+    });
+
+
 
 </script>
 

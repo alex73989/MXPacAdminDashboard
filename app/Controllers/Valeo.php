@@ -43,7 +43,7 @@ class Valeo extends BaseController
         else{
             $data = [
                 'status' => 'error',
-                'message' => 'Failed'
+                'message' => 'Failed to add data'
             ];
             
         }
@@ -53,7 +53,19 @@ class Valeo extends BaseController
 
     public function fetch(){
         $employee = new EmployeeModel();
-        $data['employee_table'] = $employee->findAll();
+        if($posts = $employee->findAll()){
+            $data = [
+                'status' => 'success',
+                'employee_table' => $posts,
+            ];
+        }
+        else{
+            $data = [
+                'status' => 'error',
+                'message' => 'Failed to get data from database'
+            ];
+        }
+        
         return $this->response->setJSON($data);
     }
 
@@ -74,20 +86,39 @@ class Valeo extends BaseController
     public function update(){
         $employee = new EmployeeModel();
         $main_id = $this->request->getPost('main_id');
-        $data = [
+        $userdata = [
             'employeeid' => $this->request->getPost('employeeid'),
             'username' => $this->request->getPost('username'),
             'fullname' => $this->request->getPost('fullname'),
         ];
-        $employee->update($main_id, $data);
-        $message = ['status' => 'Updated Successfully'];
-        return $this->response->setJSON($message);
+        if($employee->update($main_id, $userdata)){
+            $data = [
+                'status' => 'success',
+                'message' => 'Updated Successfully'
+            ];
+        }
+        else{
+            $data = [
+                'status' => 'error',
+                'message' => 'Failed to update data'
+            ];
+        }
+        
+        return $this->response->setJSON($data);
     }
 
     public function delete(){
         $employee = new EmployeeModel();
-        $employee->delete($this->request->getPost('main_id'));
-        $message = ['status' => 'Deleted Successfully'];
-        return $this->response->setJSON($message);
+        if($employee->delete($this->request->getPost('del_id'))){
+            $data = [
+                'status' => 'success',
+            ];
+        }
+        else{
+            $data = [
+                'status' => 'error',
+            ];
+        }
+        return $this->response->setJSON($data);
     }
 }

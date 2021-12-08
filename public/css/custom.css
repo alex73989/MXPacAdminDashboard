@@ -23,3 +23,170 @@
 div#employeeTable_paginate{
     margin-bottom: 16px;
 }
+
+div#employeeTable_filter {
+    margin: 2px;
+}
+
+div#employeeTable_length {
+    margin: 2px;
+}
+
+/*  Excel, Copy, PDF Button CSS */
+
+.copyButton, .pdfButton {
+    width: 100px;
+    margin: 5px;
+}
+
+.excelButton{
+    position: relative;
+    background: none;
+    border: 2px solid #000;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    min-width: 200px;
+    margin: 10px;
+    cursor: pointer;
+    color: black;
+    transition: color 0.4s linear;
+}
+
+.excelButton:hover{
+    color: #fff;
+}
+
+.excelButton:hover:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+}
+
+.excelButton::before{
+    transform: scaleX(0);
+}
+
+.excelButton:hover::before{
+    transform: scaleX(1);
+}
+
+
+
+@media only screen and (max-device-width: 480px) {
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+    .excelButton, .copyButton, .pdfButton {
+        width: 100px;
+    }
+    .dt-buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+ }
+
+ @media only screen and (min-width: 481px) and (max-width: 991px)  {
+    .excelButton, .copyButton, .pdfButton {
+        width: 80px;
+    }
+ }
+
+/*  Excel, Copy, PDF Button CSS */
+
+/*  Add Employee Detail Button CSS */
+
+.add_employee_container_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.add_employee_container_button a{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    border: 2px solid #0f0;
+    margin: 40px;
+    margin-top: 0px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: black;
+    transition: 0.5s;
+    transition-delay: 0s;
+}
+
+.add_employee_container_button a:hover{
+    transition-delay: 1.5s;
+    color: #fff;
+    box-shadow: 0 0 10px #0f0;
+}
+
+.add_employee_container_button a span{
+    position: relative;
+    z-index: 100;
+}
+
+.add_employee_container_button a::before{
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 2px;
+    background: #0f0;
+    box-shadow: 5px -8px 0 #0f0, 5px 8px #0f0;
+    transition: width 0.5s, left 0.5s, height 0.5s, box-shadow 0.5s;
+    transition-delay: 1s, 0.5s, 0s, 0s;
+
+}
+
+.add_employee_container_button a:hover::before{
+    width: 60%;
+    height: 100%;
+    left: -2px;
+    box-shadow: 5px 0 0 #0f0, 5px 0 0  #0f0;
+    transition-delay: 0s, 0.5s, 1s, 1s;
+}
+
+.add_employee_container_button a::after{
+    content: '';
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 2px;
+    background: #0f0;
+    box-shadow: -5px -8px 0 #0f0, -5px 8px #0f0;
+    transition: width 0.5s, left 0.5s, height 0.5s, box-shadow 0.5s;
+    transition-delay: 1s, 0.5s, 0s, 0s;
+
+}
+
+.add_employee_container_button a:hover::after{
+    width: 60%;
+    height: 100%;
+    right: -2px;
+    box-shadow: -5px 0 0 #0f0, -5px 0 0  #0f0;
+    transition-delay: 0s, 0.5s, 1s, 1s;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .add_employee_container_button a{
+        padding: 13px 10px;
+        margin: 0px;
+    }
+}
+
+/*  Add Employee Detail Button CSS */

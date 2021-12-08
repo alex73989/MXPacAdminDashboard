@@ -22,9 +22,14 @@
 
                                     <!-- Add Records Modal -->
                                     <!-- Button trigger modal -->
-                                    <button type="button" class="btn btn-outline-info btn-sm" data-bs-toggle="modal" data-bs-target="#employeeModal">
+                                    <!-- <button type="button" class="btn btn-outline-info btn-sm" >
                                         Add Employee Details
-                                    </button>
+                                    </button> -->
+                                    <div class = "container add_employee_container_button">
+                                        <a href="#" data-bs-toggle="modal" data-bs-target="#employeeModal">
+                                            <span>Add Employee Details</span>
+                                        </a>
+                                    </div>
                                     <!-- Modal -->
                                     <div class="modal fade" id="employeeModal" tabindex="-1" aria-labelledby="employeeModalLabel" aria-hidden="true">
                                         <div class="modal-dialog">
@@ -147,8 +152,8 @@
 
                                     
 
-                                    <div class="table table-bordered table-striped mt-3" width="100%">
-                                        <table class = "table" id = "employeeTable">
+                                    <div class="table table-bordered table-striped mt-3" >
+                                        <table class = "table" id = "employeeTable" width="100%">
                                             <thead>
                                                 <tr>
                                                     <th>Id</th>
@@ -206,14 +211,16 @@
                 // });
                 $('#employeeTable').DataTable({
                     "data": response.employee_table,
-                    responsive: true,
+                    "scrollX": true,
                     "pagingType": "full_numbers",
                     dom: 
                         "<'row'<'col-sm-12 col-md-4'l><'col-sm-12 col-md-4 text-center'B><'col-sm-12 col-md-4'f>>" +
                         "<'row'<'col-sm-12'tr>>" +
                         "<'row'<'col-sm-12 col-md-6'i><'col-sm-12 col-md-6'p>>",
                     buttons: [
-                        'copy', 'excel', 'pdf'
+                        { extend: 'copy', className: 'copyButton ' },
+                        { extend: 'excel', className: 'excelButton ' },
+                        { extend: 'pdf', className: 'pdfButton ' },
                     ],
                     "columns": [
                         { "data": "id", sClass: "main_id"},
@@ -232,6 +239,7 @@
                             `;
                         }}
                     ]
+                    
                 });
             }
         });
@@ -390,7 +398,7 @@
     });
         
 
-    
+    $('.dt-buttons').find('span').remove()
 
 
 // ========== ADD EMPLOYEE RECORDS ========== 

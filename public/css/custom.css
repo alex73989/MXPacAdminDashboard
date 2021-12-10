@@ -17,7 +17,8 @@
 }
 
 .paginate_button {
-    margin: 2px;
+    margin: 2px 10px;
+    cursor: pointer;
 }
 
 div#employeeTable_paginate{
@@ -32,42 +33,46 @@ div#employeeTable_length {
     margin: 2px;
 }
 
-/*  Excel, Copy, PDF Button CSS */
+/* ========== Excel, Copy, PDF Button CSS ========== */
 
 .copyButton, .pdfButton {
     width: 100px;
     margin: 5px;
 }
 
-.excelButton{
-    position: relative;
+.overallButton{
     background: none;
-    border: 2px solid #000;
+    border: 2px solid #07032D;
     text-transform: uppercase;
     padding: 12px 20px;
-    min-width: 200px;
+    min-width: 185px;
     margin: 10px;
     cursor: pointer;
-    color: black;
+    color: #07032D;
     transition: color 0.4s linear;
+    position: relative;
 }
 
-.excelButton:hover{
+.overallButton:hover{
     color: #fff;
 }
 
-.excelButton:hover:before{
+.overallButton span{
+    position: relative;
+}
+
+.overallButton::before{
     content: "";
     position: absolute;
-    left: 0;
+    margin-top: -1px;
     top: 0;
-    width: 100%;
-    height: 100%;
-    background: #000;
-    z-index: -1;
+    left: 0;
+    width: 101%;
+    height: 104%;
+    background: #07032D;
     transition: transform 0.5s;
     transform-origin: 0 0;
-    transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+    transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
 }
 
 .excelButton::before{
@@ -78,6 +83,21 @@ div#employeeTable_length {
     transform: scaleX(1);
 }
 
+.copyButton::before{
+    transform: scaleX(0);
+}
+
+.copyButton:hover::before{
+    transform: scaleX(1);
+}
+
+.pdfButton::before{
+    transform: scaleX(0);
+}
+
+.pdfButton:hover::before{
+    transform: scaleX(1);
+}
 
 
 @media only screen and (max-device-width: 480px) {
@@ -96,11 +116,23 @@ div#employeeTable_length {
     .excelButton, .copyButton, .pdfButton {
         width: 80px;
     }
+    
  }
 
-/*  Excel, Copy, PDF Button CSS */
+ @media only screen and  (min-width: 992px) and (max-width: 1400px) {
+    .overallButton{
+        padding: 6px 20px;
+        min-width: 126px;
+        margin-top: 0;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+ }
 
-/*  Add Employee Detail Button CSS */
+/* ========== Excel, Copy, PDF Button CSS ========== */
+
+/* ========== Add Employee Detail Button CSS ========== */
 
 .add_employee_container_button{
     display: flex;
@@ -188,5 +220,64 @@ div#employeeTable_length {
         margin: 0px;
     }
 }
+/* ========== Add Employee Detail Button CSS ========== */
 
-/*  Add Employee Detail Button CSS */
+/* ========== TOGGLER ICON ========== */
+.navbar-toggler {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.navbar-toggler span{
+    position: absolute;
+    width: 26px;
+    height: 3px;
+    background: #07302D;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+.navbar-toggler span:nth-child(1){
+    transform: translateY(-15px);
+    width: 15px;
+    left: 11px;
+    bottom: 17px
+}
+
+.navbar-toggler.active span:nth-child(1){
+    width: 26px;
+    transform: translateY(0px) rotate(45deg);
+    bottom: 22px;
+}
+
+.navbar-toggler span:nth-child(2){
+    transform: translateY(15px);
+    width: 9px;
+    left: 11px;
+    top: 18px
+}
+
+.navbar-toggler.active span:nth-child(2){
+    width: 26px;
+    transform: translateY(0px) rotate(315deg);
+    top: 23px;
+}
+
+
+.navbar-toggler.active span:nth-child(3){
+    transform:translateX(60px);
+}
+/* ========== TOGGLER ICON ========== */
+
+/* ========== PAGINATION BUTTON ========== */
+
+/* ========== PAGINATION BUTTON ========== */

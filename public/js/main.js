@@ -21,4 +21,9 @@ $(document).ready(function(){
     });
 });
 
+// ========== NAVBAR TOGGLE ==========
+let navbartoggler = document.querySelector('.navbar-toggler');
+navbartoggler.onclick = function(){
+    navbartoggler.classList.toggle('active')
+}
 

@@ -214,13 +214,13 @@
                     "scrollX": true,
                     "pagingType": "full_numbers",
                     dom: 
-                        "<'row'<'col-sm-12 col-md-4'l><'col-sm-12 col-md-4 text-center'B><'col-sm-12 col-md-4'f>>" +
+                        "<'row'<'col-sm-12 col-md-12 col-lg-3'l><'col-sm-12 col-md-12 col-lg-6 text-center'B><'col-sm-12 col-md-12 col-lg-3'f>>" +
                         "<'row'<'col-sm-12'tr>>" +
                         "<'row'<'col-sm-12 col-md-6'i><'col-sm-12 col-md-6'p>>",
                     buttons: [
-                        { extend: 'copy', className: 'copyButton ' },
-                        { extend: 'excel', className: 'excelButton ' },
-                        { extend: 'pdf', className: 'pdfButton ' },
+                        { extend: 'copy', className: 'copyButton overallButton' },
+                        { extend: 'excel', className: 'excelButton overallButton' },
+                        { extend: 'pdf', className: 'pdfButton overallButton' },
                     ],
                     "columns": [
                         { "data": "id", sClass: "main_id"},

@@ -161,7 +161,7 @@
                                                     <th>Username</th>
                                                     <th>Full Name</th>
                                                     <th>Created at</th>
-                                                    <th>Action</th>
+                                                    <th class = "nosort">Action</th>
                                                 </tr>
                                             </thead>
                                             <!-- <tbody class = "employeedata">
@@ -224,7 +224,7 @@
                     ],
                     "columns": [
                         { "data": "id", sClass: "main_id"},
-                        { "data": "employeeid" },
+                        { "data": "employeeid"},
                         { "data": "username" },
                         { "data": "fullname" },
                         { "data": "created_at" },
@@ -237,7 +237,9 @@
                                 <a href = "#" class = "btn btn-sm btn-outline-danger delete_btn" 
                                     value = "${row.id}"><i class="fa-solid fa-trash-can"></i></a>
                             `;
-                        }}
+                            }
+                            , "bSortable": false, "aTargets": ["nosort"]
+                        }
                     ]
                     
                 });

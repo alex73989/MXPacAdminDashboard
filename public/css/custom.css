@@ -278,6 +278,21 @@ div#employeeTable_length {
 }
 /* ========== TOGGLER ICON ========== */
 
+/* ========== DATATABLE COLUMNS & ROW CSS ========== */
+th.sorting {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+th.nosort.sorting_disabled {
+    text-align: center;
+}
+/* ========== DATATABLE COLUMNS & ROW CSS ========== */
+
+
 /* ========== PAGINATION BUTTON ========== */
 
 /* ========== PAGINATION BUTTON ========== */

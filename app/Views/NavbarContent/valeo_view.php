@@ -216,7 +216,7 @@
                     dom: 
                         "<'row'<'col-sm-12 col-md-12 col-lg-3'l><'col-sm-12 col-md-12 col-lg-6 text-center'B><'col-sm-12 col-md-12 col-lg-3'f>>" +
                         "<'row'<'col-sm-12'tr>>" +
-                        "<'row'<'col-sm-12 col-md-6'i><'col-sm-12 col-md-6'p>>",
+                        "<'row'<'col-sm-12 col-md-12 show_entries'i><'col-sm-12 col-md-12'p>>",
                     buttons: [
                         { extend: 'copy', className: 'copyButton overallButton' },
                         { extend: 'excel', className: 'excelButton overallButton' },

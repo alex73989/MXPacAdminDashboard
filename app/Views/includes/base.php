@@ -92,6 +92,18 @@
                                             <div class="dropdown-menu" aria-labelledby="navbarDarkDropdownMenuLink">
                                                 <div class = "user-profile-section">
                                                     <!-- HERE userdata -->
+                                                    <div class = "media mx-auto">
+                                                        <?php if($userdata->profile_pic != ''): ?>
+                                                            <img src = "<?= $userdata->profile_pic; ?>" alt = "" class = "img-fluid mr-2">
+                                                        <?php else: ?>
+                                                            <img src = "<?= base_url()?>/public/assets/images/avatar.png" alt = "" class = "img-fluid mr-2">
+                                                        <?php endif; ?>
+                                                            <div class = "media-body">
+                                                                <h5><?= $userdata->username; ?></h5>
+                                                                <p>Super Admin</p>
+
+                                                            </div>
+                                                    </div>
                                                 </div>
                                                 <hr class = "hr_nav">
 

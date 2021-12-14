@@ -19,8 +19,8 @@ class Valeo extends BaseController
         $uniid = session()->get('logged_user');
         $data = [
             'page_title' => 'Valeo',
-            'userdata' => $this->dashboardModel->getLoggedInUserData(session()->get('logged_user')),
-        ];
+            'userdata' => $this->dashboardModel->getLoggedInUserData($uniid),
+        ]; 
 
         return view('NavbarContent/valeo_view', $data);
     }

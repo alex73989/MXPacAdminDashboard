@@ -40,13 +40,7 @@
                     <div class="card-body">
 
                         <?= form_open(); ?>
-                            <div class="form-group mb-3">
-                                <label for="">Employee ID :</label>
-                                <input type="text" name="employeeid" class="form-control" placeholder="Enter Your Employee ID" value='<?= set_value('employeeid')?>'>
-                                <span class = "text-danger">
-                                    <?= display_error($validation, 'employeeid')?>
-                                </span>
-                            </div>
+                            
                             <div class="form-group mb-3">
                                 <label for="">Username :</label>
                                 <input type="text" name="username" class="form-control" placeholder="Enter Your Name" value='<?= set_value('username')?>'>
@@ -89,27 +83,7 @@
                                     <?= display_error($validation, 'cpass')?>
                                 </span>
                             </div>
-                            <div class="form-group mb-3">
-                                <label for="">Card ID :</label>
-                                <input type="text" name="cardid" class="form-control" placeholder="Enter Your Card ID" value='<?= set_value('cardid')?>'>
-                                <span class = "text-danger">
-                                    <?= display_error($validation, 'cardid')?>
-                                </span>
-                            </div>
-                            <div class="form-group mb-3">
-                                <label for="">User Group :</label>
-                                <input type="text" name="usergroup" class="form-control" placeholder="Enter Your User Group" value='<?= set_value('usergroup')?>'>
-                                <span class = "text-danger">
-                                    <?= display_error($validation, 'usergroup')?>
-                                </span>
-                            </div>
-                            <div class="form-group mb-3">
-                                <label for="">Group Description :</label>
-                                <input type="text" name="groupdescription" class="form-control" placeholder="Enter Your Group Description" value='<?= set_value('groupdescription')?>'>
-                                <span class = "text-danger">
-                                    <?= display_error($validation, 'groupdescription')?>
-                                </span>
-                            </div>
+                            
                             <div class="form-group login_center">
                                 <button type="submit" name="register_btn" class="btn btn-primary">Register Now</button>
                             </div>

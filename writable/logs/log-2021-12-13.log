@@ -9,3 +9,91 @@ CRITICAL - 2021-12-13 02:35:39 --> Trying to get property 'username' of non-obje
 #7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
 #9 {main}
+CRITICAL - 2021-12-13 19:23:51 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\login_activity_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('login_activity_...', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\app\Controllers\Dashboard.php(49): view('login_activity_...', Array)
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Dashboard->login_activity()
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-13 19:23:59 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\login_activity_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('login_activity_...', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\app\Controllers\Dashboard.php(49): view('login_activity_...', Array)
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Dashboard->login_activity()
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-13 19:24:07 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\login_activity_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('login_activity_...', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\app\Controllers\Dashboard.php(49): view('login_activity_...', Array)
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Dashboard->login_activity()
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-13 19:24:13 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\login_activity_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('login_activity_...', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\app\Controllers\Dashboard.php(49): view('login_activity_...', Array)
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Dashboard->login_activity()
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-13 19:24:34 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\login_activity_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('login_activity_...', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\app\Controllers\Dashboard.php(49): view('login_activity_...', Array)
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Dashboard->login_activity()
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-13 19:25:15 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\login_activity_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('login_activity_...', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\app\Controllers\Dashboard.php(49): view('login_activity_...', Array)
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\Dashboard->login_activity()
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-13 19:37:10 --> Trying to get property 'username' of non-object
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\NavbarContent\admin_dashboard_view.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('NavbarContent/a...', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\app\Controllers\AdminDashboard.php(24): view('NavbarContent/a...', Array)
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\AdminDashboard->admin_dashboard_controller()
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-13 20:00:19 --> Trying to get property 'username' of non-object
+#0 C:\xampp\htdocs\MXPacGroup\app\Views\NavbarContent\admin_dashboard_view.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('NavbarContent/a...', Array, true)
+#4 C:\xampp\htdocs\MXPacGroup\app\Controllers\AdminDashboard.php(24): view('NavbarContent/a...', Array)
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\AdminDashboard->admin_dashboard_controller()
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminDashboard))
+#7 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

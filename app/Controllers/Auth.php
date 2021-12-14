@@ -302,30 +302,22 @@ class Auth extends BaseController
 
         if ($this->request->getMethod() == 'post') {
             $rules = [
-                'employeeid' => 'required',
                 'username' => 'required|min_length[4]|max_length[20]',
                 'fullname' => 'required',
                 'email' => 'required|valid_email|is_unique[users_one.email]',
                 'pass' => 'required|min_length[6]|max_length[16]',
                 'cpass' => 'required|matches[pass]',
                 'mobile' => 'required|exact_length[10]|numeric',
-                'cardid' => 'required',
-                'usergroup' => 'required',
-                'groupdescription' => 'required',
             ];
 
             if ($this->validate($rules)) {
                 $uniid = md5(str_shuffle('abcdefghijklmnopqrstuvwxyz' . time()));
                 $userdata = [
-                    'employeeid' => $this->request->getVar('employeeid'),
                     'username' => $this->request->getVar('username', FILTER_SANITIZE_STRING),
                     'fullname' => $this->request->getVar('fullname'),
                     'email' => $this->request->getVar('email'),
                     'password' => password_hash($this->request->getVar('pass'), PASSWORD_DEFAULT),
                     'mobile' => $this->request->getVar('mobile'),
-                    'cardid' => $this->request->getVar('cardid'),
-                    'usergroup' => $this->request->getVar('usergroup'),
-                    'groupdescription' => $this->request->getVar('groupdescription'),
                     'uniid' => $uniid,
                     'activation_date' => date("Y-m-d h:i:s"),
                 ];

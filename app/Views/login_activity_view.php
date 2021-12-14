@@ -16,7 +16,7 @@
                         <h4>Login Activity</h4>
                         <hr>
 
-                        <?php if(count($login_info)>0):?>
+                        <?php if(count($login_info) >= 0):?>
                             <table class = "table">
                                 <tr>
                                     <th>Id</th>

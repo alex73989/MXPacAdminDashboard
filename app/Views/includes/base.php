@@ -22,6 +22,9 @@
     <link rel="stylesheet" href="<?php echo base_url() ?>/public/css/dashboard/errors.css">
     <link rel="stylesheet" href="<?php echo base_url() ?>/public/css/dashboard/responsive.css">
 
+    <!-- Charts CSS -->
+    <link rel="stylesheet" href="<?php echo base_url() ?>/public/css/chart/apexcharts.css">
+
     <!-- DataTables -->
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs5/jszip-2.5.0/dt-1.11.3/af-2.3.7/b-2.1.0/b-colvis-2.1.0/b-html5-2.1.0/b-print-2.1.0/cr-1.5.5/date-1.1.1/fc-4.0.1/fh-3.2.0/kt-2.6.4/r-2.2.9/rg-1.1.4/rr-1.2.8/sc-2.0.5/sb-1.3.0/sp-1.4.0/sl-1.3.3/sr-1.0.1/datatables.min.css"/>
 
@@ -242,6 +245,10 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/0c45dfaf87.js" crossorigin="anonymous"></script>
+    
+    <!-- Chart JS -->
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="<?php echo base_url() ?>/public/js/chart/chart.js"></script>
 
     <script src="<?php echo base_url() ?>/public/js/main.js"></script>
 

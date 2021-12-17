@@ -6,11 +6,11 @@
     outline: none;
 }
 
-/* ================================VARIABLE CSS=========================== */
+/* ================================VARIABLE STYLE=========================== */
 
 :root{
     --header-height: 3rem;
-    /* ========== colors ========== */
+    /* ========== COLORS ========== */
     --main-color: #c20d5a;
     --second-color:rgb(7,3,45);
     --main-grident: linear-gradient(121deg, rgba(194, 13, 90, 1) 25%, rgb(255 0 194 / 42%) 100%);

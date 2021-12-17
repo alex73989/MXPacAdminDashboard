@@ -11,7 +11,13 @@ class EmployeeModel extends Model
     protected $allowedFields = [
         'employeeid',
         'username',
-        'fullname'
+        'password',
+        'fullname',
+        'usergroup_id',
+        'usergroup_name',
+        'usergroup_descrip',
+        'contact_no',
+        'card_id',
     ];
 }
 

@@ -50,9 +50,39 @@
                                                         <input type="text" class="form-control username" placeholder="Enter Your Username">
                                                     </div>
                                                     <div class="form-group mb-3">
+                                                        <label for="">Password :</label>
+                                                        <span id = "error_password" class = "text-danger ms-3"></span>
+                                                        <input type="text" class="form-control password" placeholder="Enter Your Password">
+                                                    </div>
+                                                    <div class="form-group mb-3">
                                                         <label for="">Full Name :</label>
                                                         <span id = "error_fullname" class = "text-danger ms-3"></span>
                                                         <input type="text" class="form-control fullname" placeholder="Enter Your Full Name">
+                                                    </div>
+                                                    <div class="form-group mb-3">
+                                                        <label for="">User Group ID :</label>
+                                                        <span id = "error_usergroup_id" class = "text-danger ms-3"></span>
+                                                        <input type="text" class="form-control usergroup_id" placeholder="Enter Your User Group ID">
+                                                    </div>
+                                                    <div class="form-group mb-3">
+                                                        <label for="">User Group Name :</label>
+                                                        <span id = "error_usergroup_name" class = "text-danger ms-3"></span>
+                                                        <input type="text" class="form-control usergroup_name" placeholder="Enter Your User Group Name">
+                                                    </div>
+                                                    <div class="form-group mb-3">
+                                                        <label for="">User Group Description :</label>
+                                                        <span id = "error_usergroup_descrip" class = "text-danger ms-3"></span>
+                                                        <input type="text" class="form-control usergroup_descrip" placeholder="Enter Your User Group Description">
+                                                    </div>
+                                                    <div class="form-group mb-3">
+                                                        <label for="">Contact No :</label>
+                                                        <span id = "error_contact_no" class = "text-danger ms-3"></span>
+                                                        <input type="text" class="form-control contact_no" placeholder="Enter Your Contact No">
+                                                    </div>
+                                                    <div class="form-group mb-3">
+                                                        <label for="">Card ID :</label>
+                                                        <span id = "error_card_id" class = "text-danger ms-3"></span>
+                                                        <input type="text" class="form-control card_id" placeholder="Enter Your Card ID">
                                                     </div>
                                                     
                                                 </div>
@@ -87,8 +117,32 @@
                                                         <span class = "username_view"></span>
                                                     </h4>
                                                     <h4>
+                                                        Password:
+                                                        <span class = "password_view"></span>
+                                                    </h4>
+                                                    <h4>
                                                         Full Name:
                                                         <span class = "fullname_view"></span>
+                                                    </h4>
+                                                    <h4>
+                                                        User Group ID:
+                                                        <span class = "usergroup_id_view"></span>
+                                                    </h4>
+                                                    <h4>
+                                                        User Group Name:
+                                                        <span class = "usergroup_name_view"></span>
+                                                    </h4>
+                                                    <h4>
+                                                        Group Description:
+                                                        <span class = "usergroup_descrip_view"></span>
+                                                    </h4>
+                                                    <h4>
+                                                        Contact No:
+                                                        <span class = "contact_no_view"></span>
+                                                    </h4>
+                                                    <h4>
+                                                        Card ID:
+                                                        <span class = "card_id_view"></span>
                                                     </h4>
                                                 </div>
                                                 <div class="modal-footer">
@@ -117,10 +171,34 @@
                                                         <input type="text" id = "emp_username" class="form-control username" placeholder="Enter Your Username">
                                                     </div>
                                                     <div class="form-group mb-3">
+                                                        <label for="">Password :</label>
+                                                        <input type="text" id = "emp_password" class="form-control password" placeholder="Enter Your Password">
+                                                    </div>
+                                                    <div class="form-group mb-3">
                                                         <label for="">Full Name :</label>
                                                         <input type="text" id = "emp_fullname" class="form-control fullname" placeholder="Enter Your Full Name">
                                                     </div>
-                                                    
+                                                    <div class="form-group mb-3">
+                                                        <label for="">User Group ID :</label>
+                                                        <input type="text" id = "emp_usergroup_id" class="form-control usergroup_id" placeholder="Enter Your User Group ID">
+                                                    </div>
+                                                    <div class="form-group mb-3">
+                                                        <label for="">User Group Name :</label>
+                                                        <input type="text" id = "emp_usergroup_name" class="form-control usergroup_name" placeholder="Enter Your User Group Name">
+                                                    </div>
+                                                    <div class="form-group mb-3">
+                                                        <label for="">User Group Description :</label>
+                                                        <input type="text" id = "emp_usergroup_descrip" class="form-control usergroup_descrip" placeholder="Enter Your User Group Description">
+                                                    </div>
+                                                    <div class="form-group mb-3">
+                                                        <label for="">Contact No :</label>
+                                                        <input type="text" id = "emp_contact_no" class="form-control contact_no" placeholder="Enter Your Contact No">
+                                                    </div>
+                                                    <div class="form-group mb-3">
+                                                        <label for="">Card ID :</label>
+                                                        <input type="text" id = "emp_card_id" class="form-control card_id" placeholder="Enter Your Card ID">
+                                                    </div>
+
                                                 </div>
                                                 <div class="modal-footer">
                                                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -267,7 +345,14 @@
                     $('.main_id_view').text(empview['id']);
                     $('.empid_view').text(empview['employeeid']);
                     $('.username_view').text(empview['username']);
+                    $('.password_view').text(empview['password']);
                     $('.fullname_view').text(empview['fullname']);
+                    $('.usergroup_id_view').text(empview['usergroup_id']);
+                    $('.usergroup_name_view').text(empview['usergroup_name']);
+                    $('.usergroup_descrip_view').text(empview['usergroup_descrip']);
+                    $('.contact_no_view').text(empview['contact_no']);
+                    $('.card_id_view').text(empview['card_id']);
+
                     $('#EmployeeViewModal').modal('show');
                 });
             }
@@ -289,7 +374,14 @@
                     $('#emp_main_id').val(empvalue['id']);
                     $('#emp_id').val(empvalue['employeeid']);
                     $('#emp_username').val(empvalue['username']);
+                    $('#emp_password').val(empvalue['password']);
                     $('#emp_fullname').val(empvalue['fullname']);
+                    $('#emp_usergroup_id').val(empvalue['usergroup_id']);
+                    $('#emp_usergroup_name').val(empvalue['usergroup_name']);
+                    $('#emp_usergroup_descrip').val(empvalue['usergroup_descrip']);
+                    $('#emp_contact_no').val(empvalue['contact_no']);
+                    $('#emp_card_id').val(empvalue['card_id']);
+
                     $('#EmployeeEditModal').modal('show');
                 });
             }
@@ -398,13 +490,10 @@
         });
 
     });
-        
-
-    $('.dt-buttons').find('span').remove()
+    // CRUD Operation
 
 
-// ========== ADD EMPLOYEE RECORDS ========== 
-
+    // ========== ADD EMPLOYEE RECORDS ========== 
     $(document).on('click','.ajaxemployee-add',function(){
 
         if($.trim($('.employeeid').val()).length == 0){
@@ -469,7 +558,7 @@
 
 
     });
-
+    // ========== ADD EMPLOYEE RECORDS ========== 
 
 </script>
 

@@ -183,6 +183,7 @@
                     <div class="col-lg-8">
                         <div class="bg-white top-chart-earn">
                             <div class="row">
+                                <!-- Dashboard -->
                                 <div class="col-sm-4 my-2 pe-0">
                                     <div class="last-month">
                                         <h5>Dashboard</h5>
@@ -198,6 +199,121 @@
                                         </div>
                                         <a href="" class = "di-btn purple-gradient">Last Month Summary</a>
                                     </div>
+                                </div>
+                                <!-- Dashboard -->
+
+                                <!-- Columns Chart -->
+                                <div class="col-sm-8 my-2 ps-0">
+                                    <div class="classic-tabs">
+                                        <!-- -----Nav Tabs----- -->
+                                        <div class="tabs-wrapper">
+                                            
+                                            <ul class="nav nav-pills chart-header-tab mb-3" id="pills-tab" role="tablist">
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link chart-nav active" id="pills-week-tab" data-bs-toggle="pill" data-bs-target="#pills-week" type="button" role="tab" aria-controls="pills-week" aria-selected="true">Week</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link chart-nav" id="pills-month-tab" data-bs-toggle="pill" data-bs-target="#pills-month" type="button" role="tab" aria-controls="pills-month" aria-selected="false">Month</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link chart-nav" id="pills-year-tab" data-bs-toggle="pill" data-bs-target="#pills-year" type="button" role="tab" aria-controls="pills-year" aria-selected="false">Year</a>
+                                                </li>
+                                            </ul>
+                                            <div class="tab-content" id="pills-tabContent">
+                                                <div class="tab-pane fade show active" id="pills-week" role="tabpanel" aria-labelledby="pills-week-tab">
+                                                    <div class="widget-content">
+                                                        <div id="weekly">
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" id="pills-month" role="tabpanel" aria-labelledby="pills-month-tab">
+                                                    <div class="widget-content">
+                                                        <div id="monthly">
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" id="pills-year" role="tabpanel" aria-labelledby="pills-year-tab">
+                                                    <div class="widget-content">
+                                                        <div id="yearly">
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <!-- -----Nav Tabs----- -->
+                                    </div>
+                                <!-- Columns Chart -->
+                                    
+                                </div>
+                            </div>
+
+                            <div class="wre-sec">
+                                <div class="row">
+                                    <div class="col-md-3 col-sm-3 col-6 my-1 bdr-cls">
+                                        <div class="earn-view">
+                                            <span class = "fas fa-crown earn-icon"></span>
+                                            
+                                            <div class="earn-view-text">
+                                                <p class = "name-text">
+                                                    Wallet Balance
+                                                </p>
+                                                <h6 class = "balance-text">
+                                                    $1688.50
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3 col-sm-3 col-6 my-1 bdr-cls">
+                                        <div class="earn-view">
+                                            <span class = "fas fa-heart earn-icon"></span>
+                                            
+                                            <div class="earn-view-text">
+                                                <p class = "name-text">
+                                                    Referral Earning
+                                                </p>
+                                                <h6 class = "balance-text">
+                                                    $1200.50
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3 col-sm-3 col-6 my-1 bdr-cls">
+                                        <div class="earn-view">
+                                            <span class = "fab fa-salesforce earn-icon"></span>
+                                            
+                                            <div class="earn-view-text">
+                                                <p class = "name-text">
+                                                    Estimate Sales
+                                                </p>
+                                                <h6 class = "balance-text">
+                                                    $2777.50
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-3 col-sm-3 col-6 my-1 bdr-cls">
+                                        <div class="earn-view">
+                                            <span class = "fas fa-chart-line earn-icon"></span>
+                                            
+                                            <div class="earn-view-text">
+                                                <p class = "name-text">
+                                                    Earning
+                                                </p>
+                                                <h6 class = "balance-text">
+                                                    $16989.50
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>

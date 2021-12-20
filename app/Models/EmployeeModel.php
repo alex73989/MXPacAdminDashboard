@@ -13,6 +13,7 @@ class EmployeeModel extends Model
         'username',
         'password',
         'fullname',
+        'usertype',
         'usergroup_id',
         'usergroup_name',
         'usergroup_descrip',

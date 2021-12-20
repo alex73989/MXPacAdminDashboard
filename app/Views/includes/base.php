@@ -69,8 +69,12 @@
                                             <a class="nav-link" href="<?php echo base_url() ?>/AdminDashboard/admin_dashboard_controller">Admin Dashboard</a>
                                         </li>
                                         <li class="nav-item">
+                                            <a class="nav-link" href="<?php echo base_url() ?>/canvasMove/canvasMove_controller">CanvasMove</a>
+                                        </li>
+                                        <li class="nav-item">
                                             <a class="nav-link" href="<?php echo base_url() ?>/Valeo/valeo_controller">Valeo</a>
                                         </li>
+                                        
                                         <!-- <li class="nav-item dropdown">
                                             <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                                 <?/* = $this->renderSection('welcome_username'); */ ?>

@@ -60,6 +60,15 @@
                                                         <input type="text" class="form-control fullname" placeholder="Enter Your Full Name">
                                                     </div>
                                                     <div class="form-group mb-3">
+                                                        <label for="">User Type :</label>
+                                                        <span id = "error_usertype" class = "text-danger ms-3"></span>
+                                                        <select name="usertype" class="usertype form-select form-select-md">
+                                                            <option value="" selected disabled>Select User Type</option>
+                                                            <option value="Admin">Admin</option>
+                                                            <option value="User">User</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="form-group mb-3">
                                                         <label for="">User Group ID :</label>
                                                         <span id = "error_usergroup_id" class = "text-danger ms-3"></span>
                                                         <input type="text" class="form-control usergroup_id" placeholder="Enter Your User Group ID">
@@ -67,7 +76,12 @@
                                                     <div class="form-group mb-3">
                                                         <label for="">User Group Name :</label>
                                                         <span id = "error_usergroup_name" class = "text-danger ms-3"></span>
-                                                        <input type="text" class="form-control usergroup_name" placeholder="Enter Your User Group Name">
+                                                        <select name="usergroup_name" id="usergroup_name" class="usergroup_name form-select form-select-md">
+                                                            <option value="" selected disabled>Select User Group Name</option>
+                                                            <?php foreach($userlevel as $key => $userlevelkey){ ?>
+                                                                <option value="<?= $userlevelkey['id'] ?>"> <?= $userlevelkey['usergroup_name'] ?></option>
+                                                            <?php } ?>
+                                                        </select>
                                                     </div>
                                                     <div class="form-group mb-3">
                                                         <label for="">User Group Description :</label>
@@ -125,6 +139,10 @@
                                                         <span class = "fullname_view"></span>
                                                     </h4>
                                                     <h4>
+                                                        User Type:
+                                                        <span class = "usertype_view"></span>
+                                                    </h4>
+                                                    <h4>
                                                         User Group ID:
                                                         <span class = "usergroup_id_view"></span>
                                                     </h4>
@@ -177,6 +195,14 @@
                                                     <div class="form-group mb-3">
                                                         <label for="">Full Name :</label>
                                                         <input type="text" id = "emp_fullname" class="form-control fullname" placeholder="Enter Your Full Name">
+                                                    </div>
+                                                    <div class="form-group mb-3">
+                                                        <label for="">User Type :</label>
+                                                        <select id="emp_usertype" class="usertype form-select form-select-md">
+                                                            <option value="">Select User Type</option>
+                                                            <option value="Admin">Admin</option>
+                                                            <option value="User">User</option>
+                                                        </select>
                                                     </div>
                                                     <div class="form-group mb-3">
                                                         <label for="">User Group ID :</label>
@@ -327,6 +353,166 @@
     loademployee();
     
     // CRUD Operation
+
+    // ========== ADD EMPLOYEE RECORDS ========== 
+    $(document).on('click','.ajaxemployee-add',function(){
+
+        // ========== Employee ID ==========
+        if($.trim($('.employeeid').val()).length == 0){
+            error_empid = 'Please enter Employee ID';
+            $('#error_empid').text(error_empid);
+        }
+        else{
+            error_empid = '';
+            $('#error_empid').text(error_empid);
+        }
+        // ========== Employee ID ==========
+
+        // ========== Username ==========
+        if($.trim($('.username').val()).length == 0){
+            error_username = 'Please enter Username';
+            $('#error_username').text(error_username);
+        }
+        else{
+            error_username = '';
+            $('#error_username').text(error_username);
+        }
+        // ========== Username ==========
+
+        // ========== Password ==========
+        if($.trim($('.password').val()).length == 0){
+            error_password = 'Please enter Password';
+            $('#error_password').text(error_password);
+        }
+        else{
+            error_password = '';
+            $('#error_password').text(error_password);
+        }
+        // ========== Password ==========
+
+        // ========== FullName ==========
+        if($.trim($('.fullname').val()).length == 0){
+            error_fullname = 'Please enter Full Name';
+            $('#error_fullname').text(error_fullname);
+        }
+        else{
+            error_fullname = '';
+            $('#error_fullname').text(error_fullname);
+        }
+        // ========== FullName ==========
+
+        // ========== User Type ==========
+        if($.trim($('.usertype').val()).length == 0){
+            error_usertype = 'Please Select An User Type';
+            $('#error_usertype').text(error_usertype);
+        }
+        else{
+            error_usertype = '';
+            $('#error_usertype').text(error_usertype);
+        }
+        // ========== User Type ==========
+
+        // ========== User Group ID ==========
+        if($.trim($('.usergroup_id').val()).length == 0){
+            error_usergroup_id = 'Please enter User Group ID';
+            $('#error_usergroup_id').text(error_usergroup_id);
+        }
+        else{
+            error_usergroup_id = '';
+            $('#error_usergroup_id').text(error_usergroup_id);
+        }
+        // ========== User Group ID ==========
+
+        // ========== User Group Name ==========
+        if($.trim($('.usergroup_name').val()).length == 0){
+            error_usergroup_name = 'Please enter User Group Name';
+            $('#error_usergroup_name').text(error_usergroup_name);
+        }
+        else{
+            error_usergroup_name = '';
+            $('#error_usergroup_name').text(error_usergroup_name);
+        }
+        // ========== User Group Name ==========
+
+        // ========== User Group Description ==========
+        if($.trim($('.usergroup_descrip').val()).length == 0){
+            error_usergroup_descrip = 'Please enter User Group Description';
+            $('#error_usergroup_descrip').text(error_usergroup_descrip);
+        }
+        else{
+            error_usergroup_descrip = '';
+            $('#error_usergroup_descrip').text(error_usergroup_descrip);
+        }
+        // ========== User Group Description ==========
+
+        // ========== Contact No ==========
+        if($.trim($('.contact_no').val()).length == 0){
+            error_contact_no = 'Please enter Password';
+            $('#error_contact_no').text(error_contact_no);
+        }
+        else{
+            error_contact_no = '';
+            $('#error_contact_no').text(error_contact_no);
+        }
+        // ========== Contact No ==========
+
+        // ========== Card ID ==========
+        if($.trim($('.card_id').val()).length == 0){
+            error_card_id = 'Please enter Password';
+            $('#error_card_id').text(error_card_id);
+        }
+        else{
+            error_card_id = '';
+            $('#error_card_id').text(error_card_id);
+        }
+        // ========== Card ID ==========
+
+        if(error_empid != '' || error_username != '' || error_password != '' || error_fullname != ''
+        || error_usertype != '' || error_usergroup_id != '' || error_usergroup_name != '' 
+        || error_usergroup_descrip != ''|| error_contact_no != '' || error_card_id != ''){
+            return false;
+        }
+        else{
+
+            var data = {
+                'employeeid' : $('.employeeid').val(),
+                'username' : $('.username').val(),
+                'password' : $('.password').val(),
+                'fullname' : $('.fullname').val(),
+                'usertype' : $('.usertype').val(),
+                'usergroup_id' : $('.usergroup_id').val(),
+                'usergroup_name' : $('.usergroup_name').val(),
+                'usergroup_descrip' : $('.usergroup_descrip').val(),
+                'contact_no' : $('.contact_no').val(),
+                'card_id' : $('.card_id').val(),
+            };
+
+            $.ajax({
+                method: "POST",
+                url: "<?php echo base_url() ?>/valeo/insert",
+                data: data,
+                success: function(response){
+                    if(response.status == "success"){
+                        $('#employeeTable').DataTable().destroy();
+                        loademployee();
+                        $('#employeeModal').modal('hide');
+                        $('#employeeModal').find('input').val('');
+                        toastr["success"](response.message);
+                    }
+                    else{
+                        $('#employeeModal').modal('hide');
+                        $('#employeeModal').find('input').val('');
+                        toastr["error"](response.message);
+                    }
+                }
+            });
+        }
+
+
+
+    });
+    // ========== ADD EMPLOYEE RECORDS ========== 
+
     $(document).on('click','.view_btn',function(){
 
         var main_id = $(this).attr("value");
@@ -347,6 +533,7 @@
                     $('.username_view').text(empview['username']);
                     $('.password_view').text(empview['password']);
                     $('.fullname_view').text(empview['fullname']);
+                    $('.usertype_view').text(empview['usertype']);
                     $('.usergroup_id_view').text(empview['usergroup_id']);
                     $('.usergroup_name_view').text(empview['usergroup_name']);
                     $('.usergroup_descrip_view').text(empview['usergroup_descrip']);
@@ -376,6 +563,7 @@
                     $('#emp_username').val(empvalue['username']);
                     $('#emp_password').val(empvalue['password']);
                     $('#emp_fullname').val(empvalue['fullname']);
+                    $('#emp_usertype').val(empvalue['usertype']);
                     $('#emp_usergroup_id').val(empvalue['usergroup_id']);
                     $('#emp_usergroup_name').val(empvalue['usergroup_name']);
                     $('#emp_usergroup_descrip').val(empvalue['usergroup_descrip']);
@@ -395,7 +583,14 @@
             'main_id': $('#emp_main_id').val(),
             'employeeid': $('#emp_id').val(),
             'username': $('#emp_username').val(),
+            'password': $('#emp_password').val(),
             'fullname': $('#emp_fullname').val(),
+            'usertype': $('#emp_usertype').val(),
+            'usergroup_id': $('#emp_usergroup_id').val(),
+            'usergroup_name': $('#emp_usergroup_name').val(),
+            'usergroup_descrip': $('#emp_usergroup_descrip').val(),
+            'contact_no': $('#emp_contact_no').val(),
+            'card_id': $('#emp_card_id').val(),
         };
 
         $.ajax({
@@ -457,8 +652,9 @@
                     },
                     success: function (response){
                         if(response.status == "success"){
-                            $('#employeeTable').DataTable().destroy();
+                            $('#employeeTable').DataTable().clear().destroy();
                             loademployee();
+                            
                             swalWithBootstrapButtons.fire(
                                 'Deleted!',
                                 'Your file has been deleted.',
@@ -492,73 +688,8 @@
     });
     // CRUD Operation
 
-
-    // ========== ADD EMPLOYEE RECORDS ========== 
-    $(document).on('click','.ajaxemployee-add',function(){
-
-        if($.trim($('.employeeid').val()).length == 0){
-            error_empid = 'Please enter Employee ID';
-            $('#error_empid').text(error_empid);
-        }
-        else{
-            error_empid = '';
-            $('#error_empid').text(error_empid);
-        }
-
-        if($.trim($('.username').val()).length == 0){
-            error_username = 'Please enter Username';
-            $('#error_username').text(error_username);
-        }
-        else{
-            error_username = '';
-            $('#error_username').text(error_username);
-        }
-
-        if($.trim($('.fullname').val()).length == 0){
-            error_fullname = 'Please enter Full Name';
-            $('#error_fullname').text(error_fullname);
-        }
-        else{
-            error_fullname = '';
-            $('#error_fullname').text(error_fullname);
-        }
-
-        if(error_empid != '' || error_username != '' || error_fullname != ''){
-            return false;
-        }
-        else{
-
-            var data = {
-                'employeeid' : $('.employeeid').val(),
-                'username' : $('.username').val(),
-                'fullname' : $('.fullname').val(),
-            };
-
-            $.ajax({
-                method: "POST",
-                url: "<?php echo base_url() ?>/valeo/insert",
-                data: data,
-                success: function(response){
-                    if(response.status == "success"){
-                        $('#employeeTable').DataTable().destroy();
-                        loademployee();
-                        $('#employeeModal').modal('hide');
-                        $('#employeeModal').find('input').val('');
-                        toastr["success"](response.message);
-                    }
-                    else{
-                        $('#employeeModal').modal('hide');
-                        $('#employeeModal').find('input').val('');
-                        toastr["error"](response.message);
-                    }
-                }
-            });
-        }
-
-
-
-    });
-    // ========== ADD EMPLOYEE RECORDS ========== 
+    //usergroup_name
+    
 
 </script>
 

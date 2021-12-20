@@ -7,9 +7,11 @@ use App\Models\EmployeeModel;
 class Valeo extends BaseController
 {
     public $dashboardModel;
+    private $db;
     
     public function __construct()
     {
+        $this->db = db_connect();
         $this->dashboardModel = new DashboardModel();
         helper('form');
     }
@@ -18,9 +20,11 @@ class Valeo extends BaseController
     {
         $uniid = session()->get('logged_user');
         $data = [
+            
+            'userlevel' => $this->db->query("SELECT * from users_level_management")->getResultArray(),
             'page_title' => 'Valeo',
             'userdata' => $this->dashboardModel->getLoggedInUserData($uniid),
-        ]; 
+        ];
 
         return view('NavbarContent/valeo_view', $data);
     }
@@ -31,7 +35,14 @@ class Valeo extends BaseController
         $data = [
             'employeeid' => $this->request->getPost('employeeid'),
             'username' => $this->request->getPost('username'),
+            'password' => $this->request->getPost('password'),
             'fullname' => $this->request->getPost('fullname'),
+            'usertype' => $this->request->getPost('usertype'),
+            'usergroup_id' => $this->request->getPost('usergroup_id'),
+            'usergroup_name' => $this->request->getPost('usergroup_name'),
+            'usergroup_descrip' => $this->request->getPost('usergroup_descrip'),
+            'contact_no' => $this->request->getPost('contact_no'),
+            'card_id' => $this->request->getPost('card_id'),
 
         ];
         if($employee->save($data)){
@@ -89,7 +100,14 @@ class Valeo extends BaseController
         $userdata = [
             'employeeid' => $this->request->getPost('employeeid'),
             'username' => $this->request->getPost('username'),
+            'password' => $this->request->getPost('password'),
             'fullname' => $this->request->getPost('fullname'),
+            'usertype' => $this->request->getPost('usertype'),
+            'usergroup_id' => $this->request->getPost('usergroup_id'),
+            'usergroup_name' => $this->request->getPost('usergroup_name'),
+            'usergroup_descrip' => $this->request->getPost('usergroup_descrip'),
+            'contact_no' => $this->request->getPost('contact_no'),
+            'card_id' => $this->request->getPost('card_id'),
         ];
         if($employee->update($main_id, $userdata)){
             $data = [

@@ -102,18 +102,18 @@ function component(width, height, color, x, y, type) {
       var firight = enemy.x + (enemy.width);
       var fitop = enemy.y;
       var fibottom = enemy.y + (enemy.height);
-      var crash = true;
       if ((mybottom < fitop) || (mytop > fibottom) || (myright < fileft) || (myleft > firight)) {
-        crash = false;
+            ctx = myGameArea.context;
+            ctx.fillStyle = "green";
+            ctx.fillRect(this.x, this.y, this.width, this.height);
       }
-      return crash;
     }
 }
 
 function updateGameArea() {
 
   if (myGamePiece.crashWith(myFi)) {
-    myGameArea.stop();
+    myFi.setColor("green");
   } else {
     myGameArea.clear();
 
@@ -125,19 +125,19 @@ function updateGameArea() {
 
     if (myGameArea.keys && (myGameArea.keys[KEY_LEFT] || myGameArea.keys[KEY_A])) {
 
-      myGamePiece.speedX = -1;
+      myGamePiece.speedX = -2;
     }
     if (myGameArea.keys && (myGameArea.keys[KEY_RIGHT] || myGameArea.keys[KEY_D])) {
 
-      myGamePiece.speedX = 1;
+      myGamePiece.speedX = 2;
     }
     if (myGameArea.keys && (myGameArea.keys[KEY_UP] || myGameArea.keys[KEY_W])) {
 
-      myGamePiece.speedY = -1;
+      myGamePiece.speedY = -2;
     }
     if (myGameArea.keys && (myGameArea.keys[KEY_DOWN] || myGameArea.keys[KEY_S])) {
 
-      myGamePiece.speedY = 1;
+      myGamePiece.speedY = 2;
     }
 
     Number.prototype.clamp = function(min, max) {
@@ -178,9 +178,9 @@ function moveright() {
 }
 
 function clearmove() {
-  buttonMove = false;
-  myGamePiece.speedX = 0;
-  myGamePiece.speedY = 0;
+    buttonMove = false;
+    myGamePiece.speedX = 0;
+    myGamePiece.speedY = 0;
 }
 
 function resetmove(){

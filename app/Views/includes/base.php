@@ -69,7 +69,7 @@
                                             <a class="nav-link" href="<?php echo base_url() ?>/AdminDashboard/admin_dashboard_controller">Admin Dashboard</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="<?php echo base_url() ?>/canvasMove/canvasMove_controller">CanvasMove</a>
+                                            <a class="nav-link" href="<?php echo base_url() ?>/RFID_demo_kit/RFID_demo_kit_controller">RFID Demo Kit</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="<?php echo base_url() ?>/Valeo/valeo_controller">Valeo</a>

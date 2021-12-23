@@ -349,3 +349,12 @@ a.paginate_button.disabled:hover{
     cursor: default;
 }
 /* ========== PAGINATION BUTTON ========== */
+
+
+a.button_car_physical_demostration {
+    color: white;
+}
+
+a.button_rfid_to_scan {
+    color: white;
+}

@@ -10,3 +10,7 @@ canvas {
 div#canvasDemo {
     text-align: center;
 }
+
+a.button_rfid_to_scan {
+    color: #ffffff;
+}

@@ -1,0 +1,73 @@
+CRITICAL - 2021-12-28 22:22:20 --> CodeIgniter\View\View::main(): Failed opening required 'PhpSerial.php' (include_path='C:\xampp\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-28 22:26:37 --> Class 'phpSerial' not found
+#0 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('NavbarContent/r...', Array, true)
+#3 C:\xampp\htdocs\MXPacGroup\app\Controllers\RFID_demo_kit.php(57): view('NavbarContent/r...', Array)
+#4 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\RFID_demo_kit->RFID_scan_tag_controller()
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RFID_demo_kit))
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-28 23:23:17 --> Class 'phpSerial' not found
+#0 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('NavbarContent/r...', Array, true)
+#3 C:\xampp\htdocs\MXPacGroup\app\Controllers\RFID_demo_kit.php(57): view('NavbarContent/r...', Array)
+#4 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\RFID_demo_kit->RFID_scan_tag_controller()
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RFID_demo_kit))
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-28 23:24:21 --> Class 'phpSerial' not found
+#0 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('NavbarContent/r...', Array, true)
+#3 C:\xampp\htdocs\MXPacGroup\app\Controllers\RFID_demo_kit.php(57): view('NavbarContent/r...', Array)
+#4 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\RFID_demo_kit->RFID_scan_tag_controller()
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RFID_demo_kit))
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-28 23:24:21 --> Class 'phpSerial' not found
+#0 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('NavbarContent/r...', Array, true)
+#3 C:\xampp\htdocs\MXPacGroup\app\Controllers\RFID_demo_kit.php(57): view('NavbarContent/r...', Array)
+#4 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\RFID_demo_kit->RFID_scan_tag_controller()
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RFID_demo_kit))
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-28 23:24:25 --> Class 'phpSerial' not found
+#0 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('NavbarContent/r...', Array, true)
+#3 C:\xampp\htdocs\MXPacGroup\app\Controllers\RFID_demo_kit.php(57): view('NavbarContent/r...', Array)
+#4 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\RFID_demo_kit->RFID_scan_tag_controller()
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RFID_demo_kit))
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-28 23:24:26 --> Class 'phpSerial' not found
+#0 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('NavbarContent/r...', Array, true)
+#3 C:\xampp\htdocs\MXPacGroup\app\Controllers\RFID_demo_kit.php(57): view('NavbarContent/r...', Array)
+#4 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\RFID_demo_kit->RFID_scan_tag_controller()
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RFID_demo_kit))
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-28 23:25:03 --> Class 'phpSerial' not found
+#0 C:\xampp\htdocs\MXPacGroup\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\MXPacGroup\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\MXPacGroup\system\Common.php(1097): CodeIgniter\View\View->render('NavbarContent/r...', Array, true)
+#3 C:\xampp\htdocs\MXPacGroup\app\Controllers\RFID_demo_kit.php(57): view('NavbarContent/r...', Array)
+#4 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(824): App\Controllers\RFID_demo_kit->RFID_scan_tag_controller()
+#5 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RFID_demo_kit))
+#6 C:\xampp\htdocs\MXPacGroup\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\MXPacGroup\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

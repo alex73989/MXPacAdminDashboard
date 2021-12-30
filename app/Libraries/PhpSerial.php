@@ -107,7 +107,7 @@ class PhpSerial
             } elseif ($this->_os === "windows") {
                 if (preg_match("@^COM(\\d+):?$@i", $device, $matches)
                         and $this->_exec(
-                            exec("mode " . $device . " xon=on BAUD=9600")
+                            exec("mode " . $device . " xon=on BAUD=38400")
                         ) === 0
                 ) {
                     $this->_winDevice = "COM" . $matches[1];

@@ -26,7 +26,7 @@
                 <div class="form-group mb-3">
                     <label class = "float-start" for="">Reader IP Address:</label>
                     <span id = "error_empid" class = "text-danger ms-3"></span>
-                    <input type="text" class="form-control employeeid" placeholder="Enter Reader IP Address">
+                    <input type="text" class="form-control employeeid" placeholder="xxx.xxx.xxx.xxx">
                 </div>
                 <div class="form-group mb-3">
                     <label class = "float-start" for="">Reader Port Number :</label>
@@ -44,24 +44,24 @@
                     <input type="text" class="form-control fullname" placeholder="Enter Port Number">
                 </div>
 
-                <!-- <?php
+                <?php
                     
-                    //calling php serial class
-                    // $serial->deviceSet('COM3');
-                    // $serial->confBaudRate(9600);
-                    // $serial->confParity("none");
-                    // $serial->confCharacterLength(8);
-                    // $serial->confStopBits(1);
-                    // $serial->confFlowControl("none");
-                    // $serial->deviceOpen();
+                    // calling php serial class
+                    $serial->deviceSet('COM3');
+                    $serial->confBaudRate(38400);
+                    $serial->confParity("none");
+                    $serial->confCharacterLength(8);
+                    $serial->confStopBits(1);
+                    $serial->confFlowControl("none");
+                    $serial->deviceOpen();
 
-                    // $serial->sendMessage("Hello!");
-                    // $read=$serial->readPort();
+                    $serial->sendMessage("Hello!");
+                    $read=$serial->readPort();
 
-                    // var_dump($read);
-                    // echo $read;
+                    var_dump($read);
+                    echo $read;
                     
-                ?> -->
+                ?>
 
             </div>
             <div class = "col-sm-12 col-md-6 text-center">
